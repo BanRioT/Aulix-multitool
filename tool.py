@@ -1,5 +1,8 @@
 import backend
 from backend import *
+import os
+
+os.system("title Aulix")
 
 while True:
     cmd = input(f"{Red} » {White}")
