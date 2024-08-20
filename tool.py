@@ -1,3 +1,21 @@
+# MY CUSTOM COLORS
+Dark_red = "\033[38;2;170;0;0m"
+Dark_blue = "\033[38;2;0;0;170m"
+Dark_aqua = "\033[38;2;0;170;170m"
+Dark_purple = "\033[38;2;170;0;170m"
+Dark_orange = "\033[38;2;255;170;0m"
+Dark_gray = "\033[38;2;85;85;85m"
+Dark_green = "\033[38;2;0;170;0m"
+Black = "\033[38;2;30;30;30m"
+Blue = "\033[38;2;85;85;255m"
+Green = "\033[38;2;85;255;85m"
+Aqua = "\033[38;2;85;255;255m"
+Red = "\033[38;2;255;85;85m"
+Purple = "\033[38;2;255;85;255m"
+Yellow = "\033[38;2;255;255;85m"
+White = "\033[38;2;255;255;255m"
+Gray = "\033[38;2;171;171;171m"
+Reset = "\033[0m"  # Reset to default color
 
 # Python obfuscation by freecodingtools.org
                     
