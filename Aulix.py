@@ -889,7 +889,7 @@ computer_name = socket.gethostname()
 
 os.system("title Aulix")
 
-print(f"""✨ {Aqua}Welcome {Dark_aqua}{computer_name} {Aqua}to Aulix {Black}Build Version: 1.0.2a
+print(f"""✨ {Aqua}Welcome {Dark_aqua}{computer_name} {Aqua}to Aulix {Black}Build Version: 1.0.3a
 \n{Yellow}📌 Aulix {Purple}version: {White}1.0 {Dark_gray}(Use changelog to view the changelog)""")
 
 while True:
@@ -906,7 +906,6 @@ while True:
 
 {Yellow}- {Purple}[{Green}Network commands{Purple}]{Reset}:
 {Blue}port.scan {White}- Scans a host for open ports.
-{Blue}ping {White}- Sends packets to check the status of a host.
 {Blue}ip.valid {White}- Validates a IP address.
 {Blue}ddos {White}- Boot a IP Address offline.
 {Blue}tracert {White}- Trace the path that an Internet Protocol (IP) packet takes to its destination.
@@ -942,10 +941,13 @@ while True:
         
     elif cmd == 'changelog':
         print(f"""
+{Red}🧾 Patch update {Yellow}1.0.3a {Dark_gray}[8/21/24]{Reset}
+{Yellow} # {Gray}Fixed 'port.scan' not working.
+{Red} - {Gray}Removed pinger temporarily.
+{Yellow} # {Gray}Fixed the crash issue
+        
 {Red}🧾 Changelog info for update {Yellow}1.0 {Dark_gray}[8/18/24]{Reset}
 {Green} + {Gray}Aulix release
-{Green} + {Gray}Aulix is now OPEN source
-{Yellow} # {Gray}Fixed the crash issue
 """)
         
     elif cmd == 'about':
@@ -969,10 +971,6 @@ while True:
     elif cmd == 'port.scan':
         ip = input(f" └ Enter an IP address: ")
         port_scan(ip)
-
-    elif cmd == 'ping':
-        ip = input(f" └ Enter an IP address: ")
-        ping(ip)
     
     elif cmd == 'ip-valid':
         # Example usage in tool.py
