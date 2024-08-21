@@ -889,7 +889,7 @@ computer_name = socket.gethostname()
 
 os.system("title Aulix")
 
-print(f"""✨ {Aqua}Welcome {Dark_aqua}{computer_name} {Aqua}to Aulix {Black}Build Version: 1.0.2b
+print(f"""✨ {Aqua}Welcome {Dark_aqua}{computer_name} {Aqua}to Aulix {Black}Build Version: 1.0.2a
 \n{Yellow}📌 Aulix {Purple}version: {White}1.0 {Dark_gray}(Use changelog to view the changelog)""")
 
 while True:
@@ -927,7 +927,7 @@ while True:
 {Blue}gamertag.search {White}- Search through the database for a targets IP (Xbox gamertag to IP address).
 {Blue}lookup {White}- Lookup information on an IP address.
 {Blue}whois {White}- Lookup website information like hosting service, domain owner info, etc.
-{Blue}phone.lookup {White}- Lookup website information like hosting service, domain owner info, etc.
+{Blue}phone.lookup {White}- Lookup phone number information like host, location, etc. {Yellow}[In developement]
 {Blue}weather.resolver {White}- Gives you the current weather thats near the specified postal code.
 {Blue}subdomain.sniff {White}- Gives you the current weather thats near the specified postal code.
 {Blue}web.scraper {White}- Scrapes the internet for information based on Username, etc. {Red}[Broken]
@@ -943,8 +943,9 @@ while True:
     elif cmd == 'changelog':
         print(f"""
 {Red}🧾 Changelog info for update {Yellow}1.0 {Dark_gray}[8/18/24]{Reset}
-{Green} + {Gray}Aulix release{Reset}
-{Yellow} # {Gray}Fixed the crash issue{Reset}
+{Green} + {Gray}Aulix release
+{Green} + {Gray}Aulix is now OPEN source
+{Yellow} # {Gray}Fixed the crash issue
 """)
         
     elif cmd == 'about':
