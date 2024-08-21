@@ -150,49 +150,6 @@ def port_scan(ip):
     ports_to_scan = [1, 5, 7, 18, 20, 21, 22, 23, 25, 53, 69, 80, 88, 102, 110, 115, 119, 123, 135, 137, 139, 143, 161, 194, 381, 383, 443, 445, 465, 587, 593, 636, 691, 902, 993, 995, 1194, 1337, 1433, 1589, 1725, 2082, 2083, 2967, 3076, 3306, 3389, 3724, 4664, 5632, 5900, 8086, 8086, 25565]
     open_ports = scan_ports(ip, ports_to_scan)
 
-def ping(ip):
-    print(f'Please wait...', end='\r', flush=True)
-    output = subprocess.Popen(["ping", "-n", "4", ip], stdout=subprocess.PIPE).communicate()[0]
-    output = output.decode("utf-8")
-
-    packets_sent = 0
-    packets_received = 0
-    packets_lost = 0
-    status = f"{Red}DEAD"  # Default status is set to "DEAD"
-    loss_color = f"{Gray}"  # Default status is set to "DEAD"
-
-    for line in output.split("\n"):
-        if line.find("Packets: Sent = ") != -1:
-            sent_received_split = line.strip().split(',')
-            packets_sent = int(sent_received_split[0].strip().replace('Packets: Sent = ', ''))
-            packets_received = int(sent_received_split[1].strip().replace('Received = ', '').split()[0])
-            packets_lost = packets_sent - packets_received
-
-    if packets_received > 0:
-        status = f"{Green}ALIVE"
-
-    if packets_lost < 1:
-        loss_color = f"{Green}"
-    else:target, ip
-    loss_color = f"{Red}"
-
-    print(f'{Purple}Sent     {Blue}: {Dark_aqua}{packets_sent}')
-    print(f'{Purple}Received {Blue}: {Dark_aqua}{packets_received}')
-    print(f'{Purple}Lost     {Blue}: {Dark_aqua}{loss_color}{packets_lost} ({(packets_lost/packets_sent)*100:.2f}% loss)')
-    print(f'{Purple}Status   {Blue}: {Dark_aqua}{status}')
-
-    if packets_received > 0:
-        for line in output.split("\n"):
-            if line.find("Minimum = ") != -1:
-                split = line.strip().split(',')
-                minimum = int(split[0].strip().replace('Minimum = ', '').replace('ms', ''))
-                maximum = int(split[1].strip().replace('Maximum = ', '').replace('ms', ''))
-                average = int(split[2].strip().replace('Average = ', '').replace('ms', ''))
-                
-                print(f'{Purple}Minimum {Blue}: {Dark_aqua}{minimum}ms')
-                print(f'{Purple}Maximum {Blue}: {Dark_aqua}{maximum}ms')
-                print(f'{Purple}Average {Blue}: {Dark_aqua}{average}ms')
-
 def is_valid_ip(ip):
     try:
         # Try to create an IPv4 or IPv6 address object
@@ -943,7 +900,7 @@ while True:
         print(f"""
 {Red}🧾 Patch update {Yellow}1.0.3a {Dark_gray}[8/21/24]{Reset}
 {Yellow} # {Gray}Fixed 'port.scan' not working.
-{Red} - {Gray}Removed pinger temporarily.
+{Red} - {Gray}Removed 'Pinger'
 {Yellow} # {Gray}Fixed the crash issue
         
 {Red}🧾 Changelog info for update {Yellow}1.0 {Dark_gray}[8/18/24]{Reset}
