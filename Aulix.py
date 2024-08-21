@@ -966,7 +966,7 @@ while True:
         print(f"{Green}Goodbye! {Dark_green}Aulix{Green} has been closed.{Reset}")
         break
 
-    elif cmd == 'pscan':
+    elif cmd == 'port.scan':
         ip = input(f" └ Enter an IP address: ")
         port_scan(ip)
 
