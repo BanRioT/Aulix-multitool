@@ -897,9 +897,9 @@ computer_name = socket.gethostname()
 
 os.system("title Aulix")
 
-print(f"""✨ {Aqua}Welcome {Dark_aqua}{computer_name} {Aqua}to Aulix {Black}Build Version: 1.0.3.pub
+print(f"""✨ {Aqua}Welcome {Dark_aqua}{computer_name} {Aqua}to Aulix {Black}Build Version: 1.0.4.pub
 
-{Yellow}📌 Aulix {Purple}version: {White}1.0.3 {Dark_gray}(Use changelog to view the changelog)""")
+{Yellow}📌 Aulix {Purple}version: {White}1.0.4 {Dark_gray}(Use changelog to view the changelog)""")
 
 while True:
     cmd = input(f"{Red} » {White}")
