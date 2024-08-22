@@ -1,3 +1,62 @@
+"""
+TO DO LIST:
+asn                 Gather information on an ASN
+binaryedge          Request BinaryEdge API
+cache               Requests webpage cache from different sources
+censys              Request information from Censys database (https://censys.io/)
+certspotter         Get certificates from https://sslmate.com/certspotter
+circl               Request the CIRCL passive DNS database
+crtsh               Search in https://crt.sh/ (Certificate Transparency database)
+cybercure           Search cybercure.ai intelligence database for specific indicators.
+dns                 Map DNS information for a domain or an IP
+dnsdb               Requests Farsight DNSDB
+email               Gather information on an email address
+fullcontact         Requests Full Contact API (https://www.fullcontact.com/)
+github              Request Github information through the API
+greynoise           Request information from GreyNoise API (pick Community or Enterprise via api_type config)
+hashlookup          Request CIRCL Hash Lookup db
+help                Give help on an Harpoon command
+hibp                Request Have I Been Pwned API (https://haveibeenpwned.com/)
+hunter              Request hunter.io information through the API
+hybrid              Requests Hybrid Analysis platform
+intel               Gather information on a domain
+ip                  Gather information on an IP address
+ipinfo              Request ipinfo.io information
+ip2locationio       Request IP2Location.io information
+koodous             Request Koodous API
+malshare            Requests MalShare database
+misp                Get information from a MISP server through the API
+numverify           Query phone number information from NumVerify
+opencage            Forward/Reverse Geocoding using OpenCage
+otx                 Requests information from AlienVault OTX
+permacc             Request Perma.cc information through the API
+pgp                 Search for information in PGP key servers
+pt                  Requests Passive Total database
+pulsedive           Request PulseDive API
+quad9               Check if a domain is blocked by Quad9
+robtex              Search in Robtex API (https://www.robtex.com/api/)
+safebrowsing        Check if the given domain is in Google safe Browsing list
+save                Save a webpage in cache platforms
+securitytrails      Requests SecurityTrails database
+shodan              Requests Shodan API
+spyonweb            Search in SpyOnWeb through the API
+subdomains          Research subdomains of a domain
+telegram            Request information from Telegram through the API
+threatcrowd         Request the ThreatCrowd API
+threatgrid          Request Threat Grid API
+threatminer         Requests TreatMiner database https://www.threatminer.org/
+tor                 Check if an IP is a Tor exit node listed in the public list
+totalhash           Request Total Hash API
+twitter             Requests Twitter API
+umbrella            Check if a domain is in Umbrella Top 1 million domains
+update              Update Harpoon data
+urlhaus             Request urlhaus.abuse.ch API
+urlscan             Search and submit urls to urlscan.io
+vt                  Request Virus Total API
+xforce              Query IBM Xforce Exchange API
+zetalytics          Search in Zetalytics database
+"""
+
 import requests
 import os
 import socket
@@ -149,15 +208,6 @@ def port_scan(ip):
 
     ports_to_scan = [1, 5, 7, 18, 20, 21, 22, 23, 25, 53, 69, 80, 88, 102, 110, 115, 119, 123, 135, 137, 139, 143, 161, 194, 381, 383, 443, 445, 465, 587, 593, 636, 691, 902, 993, 995, 1194, 1337, 1433, 1589, 1725, 2082, 2083, 2967, 3076, 3306, 3389, 3724, 4664, 5632, 5900, 8086, 8086, 25565]
     open_ports = scan_ports(ip, ports_to_scan)
-
-def is_valid_ip(ip):
-    try:
-        # Try to create an IPv4 or IPv6 address object
-        ipaddress.ip_address(ip)
-        return True
-    except ValueError:
-        # If an exception is raised, the IP is not valid
-        return False
 
 def traceroute(target, max_hops=30, timeout=2):
     print(f"{Dark_purple}Traceroute to {Yellow}{target} {Dark_purple}with a maximum of {Red}{max_hops} {Dark_purple}hops:\n")
@@ -830,7 +880,8 @@ def scrape_instagram_profile(username):
     for post in profile.get_posts():
         print(f"- {post.url}")
 
-    
+def nmap(ip):
+    print("under developement")
 
 
 
@@ -847,7 +898,8 @@ computer_name = socket.gethostname()
 os.system("title Aulix")
 
 print(f"""✨ {Aqua}Welcome {Dark_aqua}{computer_name} {Aqua}to Aulix {Black}Build Version: 1.0.3.pub
-\n{Yellow}📌 Aulix {Purple}version: {White}1.0.3 {Dark_gray}(Use changelog to view the changelog)""")
+
+{Yellow}📌 Aulix {Purple}version: {White}1.0.3 {Dark_gray}(Use changelog to view the changelog)""")
 
 while True:
     cmd = input(f"{Red} » {White}")
@@ -863,7 +915,6 @@ while True:
 
 {Yellow}- {Purple}[{Green}Network commands{Purple}]{Reset}:
 {Blue}port.scan {White}- Scans a host for open ports.
-{Blue}ip.valid {White}- Validates a IP address.
 {Blue}ddos {White}- Boot a IP Address offline.
 {Blue}tracert {White}- Trace the path that an Internet Protocol (IP) packet takes to its destination.
 {Blue}nslookup {White}- Find out the corresponding IP address or domain name system (DNS) record.
@@ -875,9 +926,6 @@ while True:
 {Blue}web.scan {White}- Scan a website for vulnerabilities. {Dark_green}[Work in progress]
 {Blue}ssltls.scanner {White}- checks a server's service on any port to support TLS/SSL ciphers, protocols. {Dark_green}[Work in progress] {Dark_gray}(SSL/TLS Vulnerability Scanner)
 {Blue}netsh {White}- shows your network interfaces. {Dark_red}✖  WARNING: This command will reveal sensitive information. ✖
-
-{Yellow}- {Purple}[{Green}Cracking commands{Purple}]{Reset}:
-{Blue}ssh.cracker {White}- Attempts to crack a SSH connection locked behind a password. {Red}[Broken]
 
 {Yellow}- {Purple}[{Green}Osint commands{Purple}]{Reset}:
 {Blue}gamertag.search {White}- Search through the database for a targets IP (Xbox gamertag to IP address).
@@ -898,12 +946,16 @@ while True:
         
     elif cmd == 'changelog':
         print(f"""
+{Red}🧾 Patch update {Yellow}1.0.4b {Dark_gray}[8/21/24]{Reset}
+{Red} - {Gray}Removed 'ip.valid' as its useless
+{Red} - {Gray}Removed 'Crackers' tool section to comply with githubs ToS
+
 {Red}🧾 Patch update {Yellow}1.0.3a {Dark_gray}[8/21/24]{Reset}
 {Yellow} # {Gray}Fixed 'port.scan' not working.
 {Red} - {Gray}Removed 'Pinger'
 {Yellow} # {Gray}Fixed the crash issue
         
-{Red}🧾 Changelog info for update {Yellow}1.0 {Dark_gray}[8/18/24]{Reset}
+{Red}🧾 Info for update {Yellow}1.0 {Dark_gray}[8/18/24]{Reset}
 {Green} + {Gray}Aulix release
 """)
         
@@ -928,15 +980,6 @@ while True:
     elif cmd == 'port.scan':
         ip = input(f" └ Enter an IP address: ")
         port_scan(ip)
-    
-    elif cmd == 'ip-valid':
-        # Example usage in tool.py
-        ip = input(" └ Enter an IP address to validate: ")
-
-        if is_valid_ip(ip):
-            print(f"{ip} is a valid IP address.")
-        else:
-            print(f"{ip} is not a valid IP address.")
 
     elif cmd == 'ddos':
         print(f"{Red} This is currently under development.")
@@ -1020,3 +1063,7 @@ while True:
 
     elif cmd == 'doxtool':
         print(f"{Red}This is currently under development.")
+
+    elif cmd == 'nmap':
+        target = input(f" └ Enter a IP address: ")
+        nmap()
